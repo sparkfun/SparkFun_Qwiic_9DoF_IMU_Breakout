@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.1.3">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -18364,7 +18364,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U2" library="SparkFun-Sensors" deviceset="ICM-20948" device="" value="9DoF IMU"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%-X7R" value="1.0uF"/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -18445,9 +18445,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="116.84" y1="119.38" x2="248.92" y2="119.38" width="0.2032" layer="97" style="longdash"/>
 <wire x1="116.84" y1="132.08" x2="116.84" y2="185.42" width="0.2032" layer="97" style="longdash"/>
 <text x="127" y="121.92" size="1.27" layer="97">AD0   -&gt; I2C Address
-open  -&gt; 0b1101001
-closed -&gt; 0b110100
-
+-------------------
+open  -&gt; 0b69
+closed -&gt; 0x68
 *Closing AD0 precludes SPI</text>
 <text x="160.02" y="124.46" size="1.778" layer="97">Optionally disconnect the I2C pullup resistors on the primary
 and auxillary busses in case of too strong pullup from other sources </text>
