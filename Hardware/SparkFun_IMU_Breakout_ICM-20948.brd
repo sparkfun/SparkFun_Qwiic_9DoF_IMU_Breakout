@@ -16,7 +16,7 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -162,13 +162,13 @@
 <dimension x1="2.54" y1="22.86" x2="22.86" y2="22.86" x3="12.7" y3="29.21" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="25.4" x2="25.4" y2="25.4" x3="12.7" y3="33.02" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="25.4" x2="0" y2="0" x3="-7.62" y3="12.7" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<circle x="1.143" y="19.558" radius="0.0635" width="0.1778" layer="21"/>
-<wire x1="1.143" y1="20.32" x2="0.381" y2="19.558" width="0.254" layer="21" curve="-270"/>
-<wire x1="1.143" y1="20.32" x2="1.3716" y2="19.9898" width="0.254" layer="21"/>
-<wire x1="1.3716" y1="19.9898" x2="1.5748" y2="20.447" width="0.254" layer="21"/>
-<wire x1="1.5748" y1="20.447" x2="1.143" y2="20.32" width="0.254" layer="21"/>
-<wire x1="1.27" y1="20.193" x2="1.27" y2="20.32" width="0.127" layer="21"/>
-<wire x1="1.3716" y1="20.2184" x2="1.4732" y2="20.2946" width="0.254" layer="21"/>
+<circle x="1.27" y="19.558" radius="0.0635" width="0.1778" layer="21"/>
+<wire x1="1.27" y1="20.32" x2="0.508" y2="19.558" width="0.254" layer="21" curve="-270"/>
+<wire x1="1.27" y1="20.32" x2="1.4986" y2="19.9898" width="0.254" layer="21"/>
+<wire x1="1.4986" y1="19.9898" x2="1.7018" y2="20.447" width="0.254" layer="21"/>
+<wire x1="1.7018" y1="20.447" x2="1.27" y2="20.32" width="0.254" layer="21"/>
+<wire x1="1.397" y1="20.193" x2="1.397" y2="20.32" width="0.127" layer="21"/>
+<wire x1="1.4986" y1="20.2184" x2="1.6002" y2="20.2946" width="0.254" layer="21"/>
 <wire x1="3.746453125" y1="19.453984375" x2="2.669415625" y2="19.41825625" width="0.254" layer="21" curve="-270"/>
 <wire x1="3.746453125" y1="19.453984375" x2="3.68775" y2="19.056690625" width="0.254" layer="21"/>
 <wire x1="3.68775" y1="19.056690625" x2="4.1485125" y2="19.251678125" width="0.254" layer="21"/>
@@ -6947,8 +6947,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$32" library="buzzard_labels_2" package="#0#25" value="" x="21.082" y="11.557" rot="MR90"/>
 <element name="U$33" library="buzzard_labels (1)" package="PWR0" value="" x="10.414" y="14.1986" rot="R90"/>
 <element name="U$34" library="buzzard_labels (1)" package="X0" value="" x="4.191" y="19.177" rot="R90"/>
-<element name="U$35" library="buzzard_labels (1)" package="Y1" value="" x="3.048" y="15.621" rot="R90"/>
-<element name="U$36" library="buzzard_labels (1)" package="Z2" value="" x="0.762" y="20.066" rot="R90"/>
+<element name="U$35" library="buzzard_labels (1)" package="Y1" value="" x="0.635" y="15.748" rot="R90"/>
+<element name="U$36" library="buzzard_labels (1)" package="Z2" value="" x="0.635" y="19.177" rot="R90"/>
 <element name="U$37" library="buzzard_labels (1)" package="G5" value="" x="4.191" y="16.637" rot="R90"/>
 <element name="U$38" library="buzzard_labels (1)" package="A4" value="" x="4.191" y="15.621" rot="R90"/>
 <element name="U$39" library="buzzard_labels (1)" package="M3" value="" x="21.209" y="19.558" rot="R90"/>
