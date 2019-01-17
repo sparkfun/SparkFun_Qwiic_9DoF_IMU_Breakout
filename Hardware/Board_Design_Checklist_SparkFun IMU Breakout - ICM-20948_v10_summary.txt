@@ -1,0 +1,18 @@
+1) Is the I2C pin order correct (GND/VCC/SDA/CLK) and did you consider using a Qwiic connector? [YES]
+comment: Hmm... yes I used two Qwiic connectors, but the order does not match on the optional PTH connections. Im answering yes because Qwiic should make this foolproof enough
+
+2) Do V-Scored edges have a 50 mil border free of pads and parts (to prevent cracking on separation)? [YES]
+comment: Almost, except for the Qwiic connectors
+
+3) Does it pass DRC with top/bottom keepout layers on? [YES]
+comment: Passes with approved error
+
+4) If it is a 3-way jumper, is there a label on each side of the jumper? [NO]
+comment: Well, the only three way jumpers I have are to disconnect I2C pullup resistors. They do not have labels on both sides
+
+5) Is all text at least 0.032 inch, 15 percent radio, and vector? [n/a]
+comment: All buzzard labels
+
+6) Is the polarity label outside of the package for visibility after part population? [YES]
+comment: Yes, but polarity on the IMU is a little bit covered by another silk label. But that's only the dot - the tilted corner is unobstructed
+
