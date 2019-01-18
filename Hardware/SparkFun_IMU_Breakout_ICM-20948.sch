@@ -15362,7 +15362,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.6" y1="1.6" x2="1.25" y2="1.6" width="0.2032" layer="21"/>
 <wire x1="1.6" y1="1.25" x2="1.6" y2="1.6" width="0.2032" layer="21"/>
 <wire x1="-1.6" y1="1.25" x2="-1.25" y2="1.6" width="0.2032" layer="21"/>
-<circle x="-1.746" y="1.746" radius="0.254" width="0" layer="21"/>
+<circle x="-1.651" y="1.651" radius="0.1524" width="0" layer="21"/>
 <text x="0" y="2.032" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="0" y="-1.905" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 <wire x1="-1.13" y1="1.2" x2="-1.13" y2="1.8" width="0" layer="41"/>
