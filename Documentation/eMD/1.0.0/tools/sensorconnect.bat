@@ -1,0 +1,1 @@
+sensor-cli --target=emdwrapicm20x48,port=\\.\COM29 --adapter=dummy

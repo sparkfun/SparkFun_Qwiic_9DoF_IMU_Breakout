@@ -1,0 +1,1661 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2900387313</fileChecksum>
+  <configuration>
+    <name>debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\CBinaryReader.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\CMSIS\Core\arm_const_structs.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\CMSIS\Core\arm_common_tables.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\CMSIS\Core\arm_math.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\CBinaryWriter.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\CMSIS\Core\core_cm0.h</file>
+      <file>$PROJ_DIR$\..\..\board-hal\common.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\CMSIS\Core\core_cm0plus.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\CMSIS\Core\core_cm3.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\CMSIS\Core\core_cm4.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\CMSIS\Core\core_cm7.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\CMSIS\Core\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\CMSIS\Core\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\CMSIS\Core\core_cmSimd.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\CMSIS\Core\core_sc000.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\CMSIS\Core\core_sc300.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\DataConverter.h</file>
+      <file>$PROJ_DIR$\..\..\board-hal\dbg_gpio.h</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\InvProtocol.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\InvQueue.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\InvScheduler.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\led.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Logger.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Message.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\misc.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\RingByteBuffer.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\rtc_timer.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Sensor.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\spi_master.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\spi_slave.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_cec.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_crc.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_cryp.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_dac.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_dcmi.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_cryp_aes.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_cryp_des.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_cryp_tdes.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_dma.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_dbgmcu.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_dma2d.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_dsi.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_exti.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_flash.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_gpio.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_hash.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_flash_ramfunc.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_fmpi2c.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_i2c.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_it.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_hash_md5.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_hash_sha1.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_iwdg.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_lptim.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_pwr.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_ltdc.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_qspi.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_rcc.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_rng.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_rtc.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_sai.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_sdio.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_spi.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_tim.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_spdifrx.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_usart.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_syscfg.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_wwdg.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\sys_timer.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\timer.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\uart.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\system_stm32f4xx.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\UartTxEmulator.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\VSensor.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\VSensorId.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\common.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\DataConverter.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\startup_stm32f411xe.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\dbg_gpio.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\delay.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\DynProtocol.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\DynProtocolTransportUart.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\DeviceIcm20948.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\ErrorHelper.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\example.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\flash_manager.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\gpio.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\HostSerif.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\i2c_master.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\i2c_slave.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\iar_hook.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948DataBaseControl.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948DataBaseDriver.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948Augmented.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948AuxCompassAkm.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948AuxTransport.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948MPUFifoControl.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948Setup.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948DataConverter.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948Dmp3Driver.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948LoadFirmware.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948SelfTest.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\idd_io_hal.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\InvBasicMath.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948Transport.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\InvCksum.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\InvFormat.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\InvList.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\InvPrintf.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\InvProtocol.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\InvQueue.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\InvScheduler.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\led.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Logger.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Message.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\misc.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\rtc_timer.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Sensor.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\RingByteBuffer.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\spi_master.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\spi_slave.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_adc.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_can.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_dac.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_crc.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_dma.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_cryp.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_cryp_aes.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_cryp_des.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_cryp_tdes.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_dsi.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_dbgmcu.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_dcmi.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_flash_ramfunc.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_dma2d.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_i2c.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_exti.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_flash.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_fmpi2c.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_it.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_gpio.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_hash.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_hash_md5.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_hash_sha1.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_pwr.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_rcc.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_iwdg.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_lptim.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_ltdc.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_rng.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_qspi.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_rtc.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_sai.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_spi.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_tim.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_sdio.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_spdifrx.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\sys_timer.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_syscfg.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\timer.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_usart.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_wwdg.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\system_stm32f4xx.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\uart.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\VSensor.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\VSensorId.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\UartTxEmulator.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\example-icm20948.pbd</file>
+      <file>$PROJ_DIR$\build\example-icm20948\bin\example-icm20948.bin</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\board-hal\delay.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Device.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\DeviceIcm20948.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\DynamicProtocol\DynProtocol.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\DynamicProtocol\DynProtocolTransport.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\DynamicProtocol\DynProtocolTransportUart.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\ErrorHelper.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\HostSerif.h</file>
+      <file>$PROJ_DIR$\..\..\board-hal\flash_linker.h</file>
+      <file>$PROJ_DIR$\..\..\board-hal\flash_manager.h</file>
+      <file>$PROJ_DIR$\..\..\board-hal\gpio.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948.h</file>
+      <file>$PROJ_DIR$\..\..\board-hal\i2c_master.h</file>
+      <file>$PROJ_DIR$\..\..\board-hal\i2c_slave.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948Augmented.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948AuxCompassAkm.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948AuxTransport.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948DataBaseControl.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948DataBaseDriver.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948DataConverter.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948Defs.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948Dmp3Driver.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948LoadFirmware.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948MPUFifoControl.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948SelfTest.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948Serif.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948Setup.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948Transport.h</file>
+      <file>$PROJ_DIR$\idd_io_hal.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\InvAssert.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\IDDVersion.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\InvBasicMath.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\InvBits.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\InvCksum.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\InvBool.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\InvFormat.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\InvError.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\InvExport.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\InvList.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\InvPrintf.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\InvProtocol.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\InvQueue.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\InvScheduler.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\InvString.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\Logger.h</file>
+      <file>$PROJ_DIR$\..\..\board-hal\led.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\Message.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\misc.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\RingBuffer.h</file>
+      <file>$PROJ_DIR$\..\..\board-hal\nvic_config.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\RingByteBuffer.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\SensorConfig.h</file>
+      <file>$PROJ_DIR$\..\..\board-hal\rtc_timer.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\SensorTypes.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\SerifHal.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\CMSIS\Device\stm32f4xx.h</file>
+      <file>$PROJ_DIR$\..\..\board-hal\spi_master.h</file>
+      <file>$PROJ_DIR$\..\..\board-hal\spi_slave.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cec.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\CMSIS\Device\stm32f4xx_conf.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma2d.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dsi.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash_ramfunc.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmpi2c.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h</file>
+      <file>$PROJ_DIR$\..\..\board-hal\stm32f4xx_it.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_lptim.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_qspi.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spdifrx.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\CMSIS\Device\system_stm32f4xx.h</file>
+      <file>$PROJ_DIR$\..\..\board-hal\sys_timer.h</file>
+      <file>$PROJ_DIR$\..\..\board-hal\system.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\UartTxEmulator.h</file>
+      <file>$PROJ_DIR$\..\..\board-hal\timer.h</file>
+      <file>$PROJ_DIR$\..\..\board-hal\uart.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\VSensor\VSensor.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\VSensor\VSensorConfig.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\VSensor\VSensorData.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\VSensor\VSensorEvent.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\VSensorId.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\VSensor\VSensorId.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\VSensor\VSensorListener.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\VSensor\VSensorSmartListener.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\VSensor\VSensorType.h</file>
+      <file>$PROJ_DIR$\..\..\Invn\VSensor\VSensorVersion.h</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\CMSIS\Device\iar\startup_stm32f411xe.S</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\DataConverter.c</file>
+      <file>$PROJ_DIR$\..\..\board-hal\common.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\DeviceIcm20948.c</file>
+      <file>$PROJ_DIR$\..\..\board-hal\dbg_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\board-hal\delay.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\DynamicProtocol\DynProtocol.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\DynamicProtocol\DynProtocolTransportUart.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\ErrorHelper.c</file>
+      <file>$PROJ_DIR$\example.c</file>
+      <file>$PROJ_DIR$\..\..\board-hal\flash_manager.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\HostSerif.c</file>
+      <file>$PROJ_DIR$\..\..\board-hal\gpio.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948Augmented.c</file>
+      <file>$PROJ_DIR$\..\..\board-hal\i2c_master.c</file>
+      <file>$PROJ_DIR$\..\..\board-hal\i2c_slave.c</file>
+      <file>$PROJ_DIR$\..\..\board-hal\iar_hook.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948AuxCompassAkm.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948AuxTransport.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948DataBaseControl.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948DataBaseDriver.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948DataConverter.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948Dmp3Driver.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948LoadFirmware.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948MPUFifoControl.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948SelfTest.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948Setup.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948Transport.c</file>
+      <file>$PROJ_DIR$\idd_io_hal.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\InvBasicMath.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\InvCksum.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\InvFormat.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\InvList.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\InvPrintf.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\InvProtocol.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\InvQueue.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\InvScheduler.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\Logger.c</file>
+      <file>$PROJ_DIR$\..\..\board-hal\led.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\Message.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\misc.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\RingByteBuffer.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\Sensor.c</file>
+      <file>$PROJ_DIR$\..\..\board-hal\rtc_timer.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c</file>
+      <file>$PROJ_DIR$\..\..\board-hal\spi_master.c</file>
+      <file>$PROJ_DIR$\..\..\board-hal\spi_slave.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_can.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cec.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_crc.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_aes.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_tdes.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dac.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma2d.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dsi.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fmpi2c.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_md5.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_sha1.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\board-hal\stm32f4xx_it.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_lptim.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_ltdc.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_pwr.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_qspi.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sai.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sdio.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spdifrx.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_wwdg.c</file>
+      <file>$PROJ_DIR$\..\..\stm32f4x\CMSIS\Device\system_stm32f4xx.c</file>
+      <file>$PROJ_DIR$\..\..\board-hal\sys_timer.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\EmbUtils\UartTxEmulator.c</file>
+      <file>$PROJ_DIR$\..\..\board-hal\timer.c</file>
+      <file>$PROJ_DIR$\..\..\board-hal\uart.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\VSensor\VSensor.c</file>
+      <file>$PROJ_DIR$\..\..\Invn\Devices\VSensorId.c</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\common.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_cec.pbi</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_adc.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\DynProtocol.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\example.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\ErrorHelper.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\DeviceIcm20948.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\DynProtocolTransportUart.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\stm32f4xx_can.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\DataConverter.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\flash_manager.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\delay.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\dbg_gpio.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\bin\example-icm20948.elf</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\gpio.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\HostSerif.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\i2c_master.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\i2c_slave.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\iar_hook.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948Setup.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\idd_io_hal.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948Augmented.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948AuxCompassAkm.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948AuxTransport.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948DataBaseControl.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948DataBaseDriver.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948DataConverter.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948Dmp3Driver.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948LoadFirmware.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948MPUFifoControl.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948SelfTest.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\InvBasicMath.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\Icm20948Transport.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\InvCksum.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\InvFormat.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\InvList.o</file>
+      <file>$PROJ_DIR$\build\example-icm20948\obj\InvPrintf.o</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 395</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\CMSIS\Device\iar\startup_stm32f411xe.S</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\EmbUtils\DataConverter.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 391</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\board-hal\common.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 382</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 260 171 168 167 234 245 271 172 173 174 9 240 11 241 254 266 175 176 273 177 237 243 249 255 263 269 226 6 12 13 178 238 242 244 246 250 253 256 262 264 268 270 272</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\Devices\DeviceIcm20948.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 388</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\board-hal\dbg_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 394</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\board-hal\delay.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 393</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\DynamicProtocol\DynProtocol.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 385</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\DynamicProtocol\DynProtocolTransportUart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 389</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\EmbUtils\ErrorHelper.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 387</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\example.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 386</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\board-hal\flash_manager.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 392</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\Devices\HostSerif.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 397</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\board-hal\gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 396</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948Augmented.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 403</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\board-hal\i2c_master.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 398</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\board-hal\i2c_slave.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 399</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\board-hal\iar_hook.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 400</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948AuxCompassAkm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 404</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948AuxTransport.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 405</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948DataBaseControl.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 406</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948DataBaseDriver.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 407</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948DataConverter.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 408</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948Dmp3Driver.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 409</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948LoadFirmware.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 410</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948MPUFifoControl.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 411</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948SelfTest.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 412</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948Setup.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 401</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\Devices\Drivers\Icm20948\Icm20948Transport.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 414</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\idd_io_hal.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 402</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\EmbUtils\InvBasicMath.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 413</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\EmbUtils\InvCksum.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 415</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\EmbUtils\InvFormat.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 416</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\EmbUtils\InvList.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 417</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\EmbUtils\InvPrintf.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 418</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\EmbUtils\InvProtocol.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\EmbUtils\InvQueue.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\EmbUtils\InvScheduler.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\EmbUtils\Logger.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\board-hal\led.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\EmbUtils\Message.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\misc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\EmbUtils\RingByteBuffer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\Devices\Sensor.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\board-hal\rtc_timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 384</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\board-hal\spi_master.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\board-hal\spi_slave.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_can.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 390</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cec.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 383</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_crc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_aes.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 127</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_tdes.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 131</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma2d.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dsi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash_ramfunc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fmpi2c.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 140</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_md5.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 142</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_sha1.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 135</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\board-hal\stm32f4xx_it.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_lptim.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_ltdc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_pwr.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_qspi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 149</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sai.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sdio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 155</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spdifrx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 156</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 153</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 158</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 160</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_wwdg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\stm32f4x\CMSIS\Device\system_stm32f4xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\board-hal\sys_timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\EmbUtils\UartTxEmulator.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\board-hal\timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\board-hal\uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\VSensor\VSensor.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Invn\Devices\VSensorId.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 165</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\build\example-icm20948\bin\example-icm20948.elf</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 170</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+

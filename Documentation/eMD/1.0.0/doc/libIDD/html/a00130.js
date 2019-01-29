@@ -1,0 +1,27 @@
+var a00130 =
+[
+    [ "inv_fifo_decoded_t", "a00021.html", null ],
+    [ "inv_icm20948_dmp_get_6quaternion", "a00130.html#gab1311451db624df501469307292b0388", null ],
+    [ "inv_icm20948_dmp_get_9quaternion", "a00130.html#ga493f069360081d49f1fbe4da28302658", null ],
+    [ "inv_icm20948_dmp_get_accel", "a00130.html#ga58456038a5622ab7e151ccba53027fe1", null ],
+    [ "inv_icm20948_dmp_get_bac_state", "a00130.html#ga521431314e9037cdd2b8c417bdf76568", null ],
+    [ "inv_icm20948_dmp_get_bac_ts", "a00130.html#gaf8963362949773eca1fc2c01d9aed234", null ],
+    [ "inv_icm20948_dmp_get_calibrated_compass", "a00130.html#ga6a5f8f958a5c855710cf84f33fd77fbe", null ],
+    [ "inv_icm20948_dmp_get_calibrated_gyro", "a00130.html#ga2000dd951989c887cee7cbb68d08b100", null ],
+    [ "inv_icm20948_dmp_get_flip_pickup_state", "a00130.html#ga3a8f2d05d783df15411fef014f1e677e", null ],
+    [ "inv_icm20948_dmp_get_gmrvquaternion", "a00130.html#ga54263f731e51b68f78997b829e7a2b7e", null ],
+    [ "inv_icm20948_dmp_get_gyro_bias", "a00130.html#gabe1b1293338e15d0bc73a835abb3cbd6", null ],
+    [ "inv_icm20948_dmp_get_raw_compass", "a00130.html#gaf5e0b01e6368baad3f09a2b740efa239", null ],
+    [ "inv_icm20948_dmp_get_raw_gyro", "a00130.html#gafffb570a98cc680fd549ddee9a446acc", null ],
+    [ "inv_icm20948_dmp_process_fifo", "a00130.html#ga4b01a8c8aaf2c754746b4e0c82f03012", null ],
+    [ "inv_icm20948_fifo_pop", "a00130.html#ga8e51b4bdd5cda9b87f686a12cc269faf", null ],
+    [ "inv_icm20948_fifo_swmirror", "a00130.html#ga8d24da4e2c99888400fc43ea04d917e4", null ],
+    [ "inv_icm20948_get_accel_accuracy", "a00130.html#ga1c650171848344d0a7cfcf40bad19e33", null ],
+    [ "inv_icm20948_get_gmrv_accuracy", "a00130.html#ga780b7a1c820f6e3e9bff09e4cecc04ec", null ],
+    [ "inv_icm20948_get_gyro_accuracy", "a00130.html#ga7c3c124fe01a5c82e702979c5a1b6f6d", null ],
+    [ "inv_icm20948_get_mag_accuracy", "a00130.html#gae7417d4b6ce02bde9943c638e9f9ea07", null ],
+    [ "inv_icm20948_get_rv_accuracy", "a00130.html#ga091f10d634cc199820f8d5c14afd1833", null ],
+    [ "inv_icm20948_identify_interrupt", "a00130.html#ga8cf8dac1b38ef5d218f728c16b2fa134", null ],
+    [ "inv_icm20948_inv_decode_one_ivory_fifo_packet", "a00130.html#ga1931fbdc77e66499260d1a5b0ab65f00", null ],
+    [ "inv_icm20948_mpu_set_FIFO_RST_Diamond", "a00130.html#gaac0e85847c11baa3022d7ebc1e5be73a", null ]
+];
