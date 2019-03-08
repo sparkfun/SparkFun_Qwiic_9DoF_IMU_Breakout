@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>7.0</ProjectVersion>
+    <ToolchainName>com.Atmel.ARMGCC.C</ToolchainName>
+    <ProjectGuid>{ac487304-a1cf-429c-bf2f-4dbda5462525}</ProjectGuid>
+    <avrdevice>ATSAMG55J19</avrdevice>
+    <avrdeviceseries>none</avrdeviceseries>
+    <OutputType>StaticLibrary</OutputType>
+    <Language>C</Language>
+    <OutputFileName>lib$(MSBuildProjectName)</OutputFileName>
+    <OutputFileExtension>.a</OutputFileExtension>
+    <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
+    <AvrGccProjectExtensions>
+    </AvrGccProjectExtensions>
+    <AssemblyName>EMD-Core</AssemblyName>
+    <Name>EMD-Core</Name>
+    <RootNamespace>EMD-Core</RootNamespace>
+    <ToolchainFlavour>Native</ToolchainFlavour>
+    <KeepTimersRunning>true</KeepTimersRunning>
+    <OverrideVtor>false</OverrideVtor>
+    <CacheFlash>true</CacheFlash>
+    <ProgFlashFromRam>true</ProgFlashFromRam>
+    <RamSnippetAddress>0x20000000</RamSnippetAddress>
+    <UncachedRange />
+    <preserveEEPROM>true</preserveEEPROM>
+    <OverrideVtorValue>exception_table</OverrideVtorValue>
+    <BootSegment>2</BootSegment>
+    <eraseonlaunchrule>0</eraseonlaunchrule>
+    <AsfFrameworkConfig>
+      <framework-data>
+        <options />
+        <configurations />
+        <files />
+        <documentation help="" />
+        <offline-documentation help="" />
+        <dependencies>
+          <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.26.0" />
+        </dependencies>
+      </framework-data>
+    </AsfFrameworkConfig>
+    <ResetRule>0</ResetRule>
+    <EraseKey />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <ToolchainSettings>
+      <ArmGcc>
+  <armgcc.common.outputfiles.hex>True</armgcc.common.outputfiles.hex>
+  <armgcc.common.outputfiles.lss>True</armgcc.common.outputfiles.lss>
+  <armgcc.common.outputfiles.eep>True</armgcc.common.outputfiles.eep>
+  <armgcc.common.outputfiles.bin>True</armgcc.common.outputfiles.bin>
+  <armgcc.common.outputfiles.srec>True</armgcc.common.outputfiles.srec>
+  <armgcc.compiler.symbols.DefSymbols>
+    <ListValues>
+      <Value>NDEBUG</Value>
+    </ListValues>
+  </armgcc.compiler.symbols.DefSymbols>
+  <armgcc.compiler.directories.IncludePaths>
+    <ListValues>
+      <Value>%24(PackRepoDir)\atmel\SAMG_DFP\2.0.76\samg55\include</Value>
+      <Value>%24(PackRepoDir)\arm\cmsis\4.2.0\CMSIS\Include\</Value>
+    </ListValues>
+  </armgcc.compiler.directories.IncludePaths>
+  <armgcc.compiler.optimization.level>Optimize for size (-Os)</armgcc.compiler.optimization.level>
+  <armgcc.compiler.optimization.PrepareFunctionsForGarbageCollection>True</armgcc.compiler.optimization.PrepareFunctionsForGarbageCollection>
+  <armgcc.compiler.warnings.AllWarnings>True</armgcc.compiler.warnings.AllWarnings>
+  <armgcc.linker.libraries.Libraries>
+    <ListValues>
+      <Value>libm</Value>
+    </ListValues>
+  </armgcc.linker.libraries.Libraries>
+  <armgcc.linker.optimization.GarbageCollectUnusedSections>True</armgcc.linker.optimization.GarbageCollectUnusedSections>
+  <armgcc.assembler.general.IncludePaths>
+    <ListValues>
+      <Value>%24(PackRepoDir)\atmel\SAMG_DFP\2.0.76\samg55\include</Value>
+      <Value>%24(PackRepoDir)\arm\cmsis\4.2.0\CMSIS\Include\</Value>
+    </ListValues>
+  </armgcc.assembler.general.IncludePaths>
+  <armgcc.preprocessingassembler.general.IncludePaths>
+    <ListValues>
+      <Value>%24(PackRepoDir)\atmel\SAMG_DFP\2.0.76\samg55\include</Value>
+      <Value>%24(PackRepoDir)\arm\cmsis\4.2.0\CMSIS\Include\</Value>
+    </ListValues>
+  </armgcc.preprocessingassembler.general.IncludePaths>
+</ArmGcc>
+    </ToolchainSettings>
+    <UsesExternalMakeFile>True</UsesExternalMakeFile>
+    <OutputDirectory />
+    <BuildTarget>INVN_EMD_SDK_PATH=.\ SHELL=cmd all DEBUG=no</BuildTarget>
+    <CleanTarget>INVN_EMD_SDK_PATH=.\ SHELL=cmd clean</CleanTarget>
+    <ExternalMakeFilePath>Makefile.ICM20948</ExternalMakeFilePath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <ToolchainSettings>
+      <ArmGcc>
+  <armgcc.common.outputfiles.hex>True</armgcc.common.outputfiles.hex>
+  <armgcc.common.outputfiles.lss>True</armgcc.common.outputfiles.lss>
+  <armgcc.common.outputfiles.eep>True</armgcc.common.outputfiles.eep>
+  <armgcc.common.outputfiles.bin>True</armgcc.common.outputfiles.bin>
+  <armgcc.common.outputfiles.srec>True</armgcc.common.outputfiles.srec>
+  <armgcc.compiler.symbols.DefSymbols>
+    <ListValues>
+      <Value>DEBUG</Value>
+    </ListValues>
+  </armgcc.compiler.symbols.DefSymbols>
+  <armgcc.compiler.directories.IncludePaths>
+    <ListValues>
+      <Value>%24(PackRepoDir)\atmel\SAMG_DFP\2.0.76\samg55\include</Value>
+      <Value>%24(PackRepoDir)\arm\cmsis\4.2.0\CMSIS\Include\</Value>
+    </ListValues>
+  </armgcc.compiler.directories.IncludePaths>
+  <armgcc.compiler.optimization.level>Optimize (-O1)</armgcc.compiler.optimization.level>
+  <armgcc.compiler.optimization.PrepareFunctionsForGarbageCollection>True</armgcc.compiler.optimization.PrepareFunctionsForGarbageCollection>
+  <armgcc.compiler.optimization.DebugLevel>Maximum (-g3)</armgcc.compiler.optimization.DebugLevel>
+  <armgcc.compiler.warnings.AllWarnings>True</armgcc.compiler.warnings.AllWarnings>
+  <armgcc.linker.libraries.Libraries>
+    <ListValues>
+      <Value>libm</Value>
+    </ListValues>
+  </armgcc.linker.libraries.Libraries>
+  <armgcc.linker.optimization.GarbageCollectUnusedSections>True</armgcc.linker.optimization.GarbageCollectUnusedSections>
+  <armgcc.assembler.general.IncludePaths>
+    <ListValues>
+      <Value>%24(PackRepoDir)\atmel\SAMG_DFP\2.0.76\samg55\include</Value>
+      <Value>%24(PackRepoDir)\arm\cmsis\4.2.0\CMSIS\Include\</Value>
+    </ListValues>
+  </armgcc.assembler.general.IncludePaths>
+  <armgcc.assembler.debugging.DebugLevel>Default (-g)</armgcc.assembler.debugging.DebugLevel>
+  <armgcc.preprocessingassembler.general.IncludePaths>
+    <ListValues>
+      <Value>%24(PackRepoDir)\atmel\SAMG_DFP\2.0.76\samg55\include</Value>
+      <Value>%24(PackRepoDir)\arm\cmsis\4.2.0\CMSIS\Include\</Value>
+    </ListValues>
+  </armgcc.preprocessingassembler.general.IncludePaths>
+  <armgcc.preprocessingassembler.debugging.DebugLevel>Default (-Wa,-g)</armgcc.preprocessingassembler.debugging.DebugLevel>
+</ArmGcc>
+    </ToolchainSettings>
+    <UsesExternalMakeFile>True</UsesExternalMakeFile>
+    <OutputDirectory>
+    </OutputDirectory>
+    <BuildTarget>INVN_EMD_SDK_PATH=.\ SHELL=cmd all DEBUG=yes</BuildTarget>
+    <CleanTarget>INVN_EMD_SDK_PATH=.\ SHELL=cmd clean</CleanTarget>
+    <ExternalMakeFilePath>.\Makefile.ICM20948</ExternalMakeFilePath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="sources\EMDFwVersion.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Ak0991x\Ak0991x.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Ak0991x\Ak0991x.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Ak0991x\Ak0991xSerif.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948Augmented.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948Augmented.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948AuxCompassAkm.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948AuxCompassAkm.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948AuxTransport.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948AuxTransport.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948DataBaseControl.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948DataBaseControl.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948DataBaseDriver.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948DataBaseDriver.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948DataConverter.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948DataConverter.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948Defs.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948Dmp3Driver.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948Dmp3Driver.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948LoadFirmware.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948LoadFirmware.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948MPUFifoControl.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948MPUFifoControl.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948SelfTest.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948SelfTest.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948Serif.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948Setup.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948Setup.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948Transport.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Drivers\Icm20948\Icm20948Transport.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\Sensor.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\SensorConfig.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\Devices\SensorTypes.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\DynamicProtocol\DynProtocol.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\DynamicProtocol\DynProtocol.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\DynamicProtocol\DynProtocolTransport.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\DynamicProtocol\DynProtocolTransportUart.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\DynamicProtocol\DynProtocolTransportUart.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\DataConverter.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\dataconverter.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\ErrorHelper.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\ErrorHelper.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\InvAssert.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\InvBool.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\InvError.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\InvExport.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\InvProtocol.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\InvProtocol.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\InvQueue.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\InvQueue.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\InvScheduler.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\InvScheduler.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\Message.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\Message.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\RingBuffer.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\RingByteBuffer.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\EmbUtils\RingByteBuffer.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\IDDVersion.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\VSensor\vsensorconfig.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sources\Invn\VSensor\VSensorData.h">
+      <SubType>compile</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="sources" />
+    <Folder Include="sources\Invn" />
+    <Folder Include="sources\Invn\Devices" />
+    <Folder Include="sources\Invn\Devices\Drivers" />
+    <Folder Include="sources\Invn\Devices\Drivers\Ak0991x" />
+    <Folder Include="sources\Invn\Devices\Drivers\Icm20948" />
+    <Folder Include="sources\Invn\DynamicProtocol" />
+    <Folder Include="sources\Invn\EmbUtils" />
+    <Folder Include="sources\Invn\VSensor" />
+  </ItemGroup>
+  <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
+</Project>

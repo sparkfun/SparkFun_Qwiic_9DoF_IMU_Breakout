@@ -1,0 +1,57 @@
+#
+# Copyright (C) 2016 InvenSense Inc. All rights reserved.
+#
+
+# Path of where should be generated output files
+OUTPUT_DIR  := .
+
+# Name of genereted firmware
+OUTPUT := libEMD-Core-ICM20948.a
+
+VERSION := 1.0.0
+
+# To enable/disable compiler optimization and generate debuging symbols (DEBUG=yes/no)
+# call 'make clean' after changing this option
+DEBUG ?= yes
+
+# To build your app with additionnals flags (appended to default flags)
+# call 'make clean' after changing this option
+EXTRA_FLAGS ?= 
+
+# Extra include directories to look for headers (-Ifoo/ -Ibar/)
+EXTRA_IDIRS := -I.
+
+# Path to headers and other deps to check against for rebuilding the entire project
+EXTRA_DEPS  := 
+
+# Path to C sources to compile
+EXTRA_CSRCS := 
+
+# Extra defines (-DTOTO -DTITI
+EXTRA_DEFS  := -Dprintf=ip2060rintf -Dscanf=iscanf
+
+# Extra libraries to be included
+EXTRA_LIBS  := 
+
+# Extra folder to look for libraries (-Lfoo/ -Lbar/)
+EXTRA_LDIRS := 
+
+# Default rules
+all:
+
+clean:
+
+SHELL=cmd.exe
+PATH=
+
+# Override toolchain path
+INVN_TOOLCHAIN_PATH="%ProgramFiles(x86)%"\Atmel\Studio\7.0\toolchain\arm\arm-gnu-toolchain\bin
+
+# Include master makefile
+ifndef INVN_EMD_SDK_PATH
+$(error "INVN_EMD_SDK_PATH undefined! Please set INVN_EMD_SDK_PATH to point to InvenSense EMD SDK root directory")
+endif
+include $(INVN_EMD_SDK_PATH)/config/linaro-cm4-atmel-samg55/main.ICM20948.mk
+
+# Additonnal rules can be defined here
+# ...

@@ -59,7 +59,7 @@
  * Set to 1 to use IddWrapper. Set to 0 to disable.
  * This allows to control the sensors from sensor-cli host application and send sensor events to it
  */
-#define USE_IDDWRAPPER   1
+#define USE_IDDWRAPPER   0 // 1 was how it was
 
 #define ODR_NONE       0 /* Asynchronous sensors don't need to have a configured ODR */
 
