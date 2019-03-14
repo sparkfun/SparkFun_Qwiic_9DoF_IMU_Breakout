@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.1.3">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -156,10 +156,10 @@
 <circle x="6.35" y="1.27" radius="1.15199375" width="0.254" layer="21"/>
 <circle x="6.35" y="1.27" radius="1.15199375" width="0.254" layer="22"/>
 <circle x="6.35" y="24.13" radius="1.15199375" width="0.254" layer="22"/>
-<dimension x1="2.54" y1="22.86" x2="2.54" y2="2.54" x3="-3.81" y3="12.7" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="2.54" y1="22.86" x2="22.86" y2="22.86" x3="12.7" y3="29.21" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="0" y1="25.4" x2="25.4" y2="25.4" x3="12.7" y3="33.02" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="0" y1="25.4" x2="0" y2="0" x3="-7.62" y3="12.7" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="2.54" y1="22.86" x2="2.54" y2="2.54" x3="-3.81" y3="12.7" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
+<dimension x1="2.54" y1="22.86" x2="22.86" y2="22.86" x3="12.7" y3="29.21" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
+<dimension x1="0" y1="25.4" x2="25.4" y2="25.4" x3="12.7" y3="33.02" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
+<dimension x1="0" y1="25.4" x2="0" y2="0" x3="-7.62" y3="12.7" textsize="1.778" textratio="15" layer="47" unit="inch" visible="yes"/>
 <circle x="1.27" y="19.558" radius="0.0635" width="0.1778" layer="21"/>
 <wire x1="1.27" y1="20.32" x2="0.508" y2="19.558" width="0.254" layer="21" curve="-270"/>
 <wire x1="1.27" y1="20.32" x2="1.4986" y2="19.9898" width="0.254" layer="21"/>
@@ -7711,9 +7711,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="U1" pad="19"/>
 <wire x1="11.596" y1="16.383" x2="11.85" y2="16.637" width="0.508" layer="1"/>
 <contactref element="J4" pad="6"/>
-<wire x1="21.717" y1="16.637" x2="21.717" y2="20.828" width="0.508" layer="1"/>
-<wire x1="19.05" y1="23.495" x2="19.05" y2="24.13" width="0.508" layer="1"/>
-<wire x1="21.717" y1="20.828" x2="19.05" y2="23.495" width="0.508" layer="1"/>
+<wire x1="21.717" y1="16.637" x2="21.717" y2="19.431" width="0.508" layer="1"/>
+<wire x1="19.05" y1="22.098" x2="19.05" y2="24.13" width="0.508" layer="1"/>
+<wire x1="21.717" y1="19.431" x2="19.05" y2="22.098" width="0.508" layer="1"/>
 <via x="21.717" y="16.637" extent="1-16" drill="0.3048"/>
 <wire x1="11.303" y1="16.637" x2="21.717" y2="16.637" width="0.508" layer="16"/>
 <wire x1="14.45" y1="5.439" x2="14.45" y2="4.981" width="0.2032" layer="1"/>
@@ -8012,53 +8012,39 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
+<approved hash="5,1,2af92c3a917f0b47"/>
 <approved hash="5,1,df582e969ea6c4f3"/>
-<approved hash="5,1,0e717168f9a32a06"/>
-<approved hash="5,1,80e72e19b8cbf6ed"/>
-<approved hash="5,1,5ee08ac86bb76378"/>
 <approved hash="5,1,d8c9d853ea92afea"/>
-<approved hash="5,1,af0d18e2cd1f00b5"/>
 <approved hash="5,1,30b2cdc360852d0f"/>
 <approved hash="5,1,6365dc84cd543242"/>
-<approved hash="5,16,922b724614cc5a21"/>
-<approved hash="5,16,746577604d5f28a5"/>
-<approved hash="5,16,40601965435a26a5"/>
-<approved hash="19,16,e8dcb38029498e9f"/>
-<approved hash="19,16,ed8df4d66a6d8fbc"/>
-<approved hash="19,16,ccdc97ff76f6d15f"/>
-<approved hash="19,16,d40e952b9fd3227c"/>
-<approved hash="19,16,d00e912ef1d64c7c"/>
-<approved hash="19,16,c8dc93c244cbe35f"/>
-<approved hash="19,16,f4dcafe12ba88c1f"/>
-<approved hash="19,16,ee8ff7b5648c813c"/>
+<approved hash="5,1,89be7e4fed9f5c3b"/>
+<approved hash="5,1,d26d8bcff9a93170"/>
+<approved hash="5,1,ee083cc623b73d0c"/>
 <approved hash="5,1,b0a0426923df0d5e"/>
-<approved hash="19,16,7090c5afb5b7fc12"/>
+<approved hash="5,1,0e717168f9a32a06"/>
+<approved hash="5,1,ef0847adf6013cef"/>
+<approved hash="5,1,efbc280c34e62a16"/>
+<approved hash="5,1,af0d18e2cd1f00b5"/>
+<approved hash="5,1,5ee08ac86bb76378"/>
+<approved hash="5,1,bae810c778d68ed6"/>
+<approved hash="5,1,80e72e19b8cbf6ed"/>
+<approved hash="5,16,746577604d5f28a5"/>
+<approved hash="5,16,33a7cdb2b45b4e54"/>
+<approved hash="5,16,922b724614cc5a21"/>
+<approved hash="5,16,40601965435a26a5"/>
+<approved hash="5,16,1afae50b1b04e0ef"/>
+<approved hash="19,16,f4dcafe12ba88c1f"/>
+<approved hash="19,16,c8dc93c244cbe35f"/>
+<approved hash="19,16,d40e952b9fd3227c"/>
+<approved hash="19,16,ccdc97ff76f6d15f"/>
+<approved hash="19,16,d00e912ef1d64c7c"/>
+<approved hash="19,16,5490e9b4a7ace612"/>
+<approved hash="19,16,ee8ff7b5648c813c"/>
 <approved hash="19,16,a48c83b4f6cd2d6f"/>
 <approved hash="19,16,c88cefb3f8ca236f"/>
-<approved hash="19,16,5490e9b4a7ace612"/>
-<approved hash="5,1,f6e806539b5abea5"/>
-<approved hash="5,1,b87b041a43682649"/>
-<approved hash="5,1,1bb467ac0453e930"/>
-<approved hash="5,16,1afae50b1b04e0ef"/>
-<approved hash="5,16,33a7cdb2b45b4e54"/>
-<approved hash="5,1,2af92c3a917f0b47"/>
-<approved hash="5,1,ee083cc623b73d0c"/>
-<approved hash="5,1,ef0847adf6013cef"/>
-<approved hash="5,1,e2822c4e12b99a20"/>
-<approved hash="5,1,bae810c778d68ed6"/>
-<approved hash="23,1,85a6266626468586"/>
-<approved hash="23,1,066a85aa840f07cf"/>
-<approved hash="23,1,ae2a0dea0cf9af39"/>
-<approved hash="23,1,67f20a1408836565"/>
-<approved hash="23,1,e067c3a7c300e0c0"/>
-<approved hash="23,1,c765e4a5e5a4c664"/>
-<approved hash="23,1,012a02ea03b80078"/>
-<approved hash="23,1,5c4adb8ada7a5dba"/>
-<approved hash="23,1,87d7e417e5d78617"/>
-<approved hash="23,1,a087034703a6a066"/>
-<approved hash="23,1,8d2283c483fa8d1c"/>
-<approved hash="23,16,867ca19aa01487f2"/>
-<approved hash="23,16,1856c624c59d1bef"/>
+<approved hash="19,16,7090c5afb5b7fc12"/>
+<approved hash="19,16,e8dcb38029498e9f"/>
+<approved hash="19,16,ed8df4d66a6d8fbc"/>
 </errors>
 </board>
 </drawing>

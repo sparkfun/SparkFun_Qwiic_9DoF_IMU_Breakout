@@ -46,7 +46,7 @@ import os
 for file in glob.glob("*.xls"):
         #print("found file: " + file)
         if(file != "Board_Design_Checklist.xls"):
-            print("Additional XLS file found. Jumping to edit that now.")
+            print "Additional XLS file found. Jumping to edit that now."
             excel_file_name = file
             output_file_name = excel_file_name
         else:
@@ -55,16 +55,16 @@ for file in glob.glob("*.xls"):
 
 # get current User Name (should work in Windows and Linux)
 current_user = getpass.getuser()
-print("Current User is " + current_user)
-print("Current Review File is " + output_file_name)
+print "Current User is " + current_user
+print "Current Review File is " + output_file_name
 
 # for reading excel docs
 import xlrd
 book = xlrd.open_workbook(excel_file_name)
-#print("The number of worksheets is", book.nsheets
-#print("Worksheet name(s):", book.sheet_names()
+#print "The number of worksheets is", book.nsheets
+#print "Worksheet name(s):", book.sheet_names()
 sh = book.sheet_by_index(0)
-#print(sh.name, sh.nrows, sh.ncols
+#print sh.name, sh.nrows, sh.ncols
 global current_check
 current_check = "blank"
 global section
@@ -161,7 +161,7 @@ def write_dependancies():
     sh = book.sheet_by_index(0)
 
 def create_summary():
-    print("Creating summary...")
+    print "Creating summary..."
     summary_file_name = output_file_name[0:-4] + "_summary.txt"
     summary = open(summary_file_name, "w")
     issue_num = 1
@@ -172,10 +172,10 @@ def create_summary():
         check = sh.cell_value(rowx=counter, colx=1)
         answer = sh.cell_value(rowx=counter, colx=6)
         if(comment != ""): # if it ain't blank, then that means there is a comment and we want to write it to the summary text file
-        #print(comment
+        #print comment
             summary.write(str(issue_num) + ") " + check + " [" + answer + "]\ncomment: " + comment + "\n\n")
             issue_num = issue_num + 1
-        print("complete :)")
+        print "complete :)"
     summary.close()
 
 class MyFrame(Frame):
@@ -333,21 +333,21 @@ class MyFrame(Frame):
         sh = book.sheet_by_index(0)
         dependancy = sh.cell_value(rowx=check_number, colx=3)
         if(dependancy == ""):
-            #print("No dependancy"
+            #print "No dependancy"
             is_relevant = 1
-            #print("relevant"
+            #print "relevant"
         else:
             dependancy = int(dependancy) - 1
-            #print("Dependant on macro question " + str(dependancy)
+            #print "Dependant on macro question " + str(dependancy)
             is_relevant = sh.cell_value(rowx=dependancy, colx=2)
             is_relevant = int(is_relevant)
-            #print(is_relevant
+            #print is_relevant
             if(is_relevant):
-                #print("relevant"
+                #print "relevant"
                 do_nothing = 1 # do nothing, this is just here as a placeholder for the if statement above        
             else:
-                print(sh.cell_value(rowx=check_number, colx=1) + " is not relevant")
-                #print("is not relevant"
+                print sh.cell_value(rowx=check_number, colx=1) + " is not relevant"
+                #print "is not relevant"
                 user_answer = "*n/a*"
                 self.update_doc()
                 return 
@@ -375,16 +375,16 @@ class MyFrame(Frame):
         return
 
     def find_where_we_left_off(self):
-        print("finding where we left off...")
+        print "finding where we left off..."
         global check_number
         check_number = check_number + 1
         user_input = sh.cell_value(rowx=check_number, colx=6) # colx = 6 is the 6th columb - where the user answers are stored.
-        #print(user_input
+        #print user_input
         while(user_input != ''):
             user_input = sh.cell_value(rowx=check_number, colx=6) # colx = 6 is the 6th columb - where the user answers are stored.
-            #print(user_input
+            #print user_input
             if(user_input == ''):
-                    #print("BLANK"
+                    #print "BLANK"
                     check_number = check_number - 1 # This means we've found where we left off, and we need to step back one spot, so it works with increment_prompt()
                     
             else:
