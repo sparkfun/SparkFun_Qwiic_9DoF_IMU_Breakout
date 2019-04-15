@@ -1,9 +1,9 @@
-SparkFun <PRODUCT NAME>
+SparkFun Qwiic 9DoF IMU  Breakout
 ========================================
 
-![SparkFun Part Name](URL for picture of part)
+![SparkFun Qwiic 9DoF IMU  Breakout](https://cdn.sparkfun.com/assets/parts/1/3/5/9/8/15182-SparkFun_9DoF_IMU_Breakout_-_ICM-20948__Qwiic_-01a.jpg)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+[*SparkFun Qwiic 9DoF IMU  Breakout (15182)*](https://www.sparkfun.com/products/15182)
 
 <Basic description of the part.>
 
