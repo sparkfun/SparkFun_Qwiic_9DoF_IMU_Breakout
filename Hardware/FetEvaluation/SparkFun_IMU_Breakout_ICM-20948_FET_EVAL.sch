@@ -18162,9 +18162,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="1.25" y="-0.625" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
 <package name="SOT-416FL">
-<smd name="1" x="-0.5" y="-1.05" dx="0.46" dy="0.65" layer="1"/>
-<smd name="2" x="0.5" y="-1.05" dx="0.46" dy="0.65" layer="1"/>
-<smd name="3" x="0" y="0" dx="0.46" dy="0.65" layer="1"/>
+<smd name="1" x="-0.5" y="-1.1" dx="0.46" dy="0.65" layer="1"/>
+<smd name="2" x="0.5" y="-1.1" dx="0.46" dy="0.65" layer="1"/>
+<smd name="3" x="0" y="0.05" dx="0.46" dy="0.65" layer="1"/>
 <rectangle x1="-0.8" y1="-0.955" x2="0.8" y2="-0.095" layer="51"/>
 <wire x1="-0.725" y1="-0.525" x2="-0.725" y2="-0.175" width="0.1524" layer="21"/>
 <wire x1="-0.725" y1="-0.175" x2="-0.425" y2="-0.175" width="0.1524" layer="21"/>
@@ -18173,6 +18173,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-0.075" y1="-0.875" x2="0.075" y2="-0.875" width="0.1524" layer="21"/>
 <text x="-1.5" y="0.6" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.75" y="-2.3" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+<package name="MINI_TEST_POINT">
+<pad name="P$1" x="0" y="0" drill="0.4"/>
 </package>
 </packages>
 <symbols>
@@ -18217,6 +18220,13 @@ Switches electronic signals</description>
 <text x="-4.064" y="-1.778" size="1.016" layer="94" font="vector" ratio="20">G</text>
 <text x="0.762" y="-3.81" size="1.016" layer="94" font="vector" ratio="20">S</text>
 </symbol>
+<symbol name="TEST-POINT">
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.762" x2="3.302" y2="-0.762" width="0.1524" layer="94" curve="180"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;Name</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector">&gt;Value</text>
+<pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DMN2005LP4K-7" prefix="Q">
@@ -18246,6 +18256,21 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TP" prefix="U">
+<gates>
+<gate name="G$1" symbol="TEST-POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINI_TEST_POINT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -18359,6 +18384,22 @@ Switches electronic signals</description>
 <part name="SUPPLY28" library="SparkFun-PowerSymbols" deviceset="1.8V" device=""/>
 <part name="SUPPLY29" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
+<part name="U1" library="new_fets" deviceset="TP" device=""/>
+<part name="U4" library="new_fets" deviceset="TP" device=""/>
+<part name="U5" library="new_fets" deviceset="TP" device=""/>
+<part name="U6" library="new_fets" deviceset="TP" device=""/>
+<part name="U7" library="new_fets" deviceset="TP" device=""/>
+<part name="U8" library="new_fets" deviceset="TP" device=""/>
+<part name="U9" library="new_fets" deviceset="TP" device=""/>
+<part name="U10" library="new_fets" deviceset="TP" device=""/>
+<part name="U11" library="new_fets" deviceset="TP" device=""/>
+<part name="U12" library="new_fets" deviceset="TP" device=""/>
+<part name="U13" library="new_fets" deviceset="TP" device=""/>
+<part name="U14" library="new_fets" deviceset="TP" device=""/>
+<part name="U15" library="new_fets" deviceset="TP" device=""/>
+<part name="U16" library="new_fets" deviceset="TP" device=""/>
+<part name="U17" library="new_fets" deviceset="TP" device=""/>
+<part name="U18" library="new_fets" deviceset="TP" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18590,6 +18631,22 @@ PWR LED</text>
 <instance part="SUPPLY2" gate="G$1" x="254" y="228.6">
 <attribute name="VALUE" x="254" y="231.394" size="1.778" layer="96" align="bottom-center"/>
 </instance>
+<instance part="U1" gate="G$1" x="393.7" y="231.14" rot="R180"/>
+<instance part="U4" gate="G$1" x="416.56" y="231.14"/>
+<instance part="U5" gate="G$1" x="393.7" y="182.88" rot="R180"/>
+<instance part="U6" gate="G$1" x="416.56" y="182.88"/>
+<instance part="U7" gate="G$1" x="416.56" y="134.62"/>
+<instance part="U8" gate="G$1" x="393.7" y="134.62" rot="R180"/>
+<instance part="U9" gate="G$1" x="393.7" y="86.36" rot="R180"/>
+<instance part="U10" gate="G$1" x="416.56" y="86.36"/>
+<instance part="U11" gate="G$1" x="345.44" y="86.36" rot="R180"/>
+<instance part="U12" gate="G$1" x="368.3" y="86.36"/>
+<instance part="U13" gate="G$1" x="345.44" y="134.62" rot="R180"/>
+<instance part="U14" gate="G$1" x="368.3" y="134.62"/>
+<instance part="U15" gate="G$1" x="345.44" y="182.88" rot="R180"/>
+<instance part="U16" gate="G$1" x="368.3" y="182.88"/>
+<instance part="U17" gate="G$1" x="345.44" y="231.14" rot="R180"/>
+<instance part="U18" gate="G$1" x="368.3" y="231.14"/>
 </instances>
 <busses>
 </busses>
@@ -18687,6 +18744,9 @@ PWR LED</text>
 <wire x1="393.7" y1="99.06" x2="393.7" y2="96.52" width="0.1524" layer="91"/>
 <junction x="393.7" y="96.52"/>
 <label x="391.16" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U9" gate="G$1" pin="1"/>
+<wire x1="393.7" y1="86.36" x2="396.24" y2="86.36" width="0.1524" layer="91" style="longdash"/>
+<junction x="396.24" y="86.36"/>
 </segment>
 </net>
 <net name="FSYNC" class="0">
@@ -18708,6 +18768,9 @@ PWR LED</text>
 <wire x1="393.7" y1="147.32" x2="393.7" y2="144.78" width="0.1524" layer="91"/>
 <junction x="393.7" y="144.78"/>
 <label x="391.16" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U8" gate="G$1" pin="1"/>
+<wire x1="396.24" y1="134.62" x2="393.7" y2="134.62" width="0.1524" layer="91" style="longdash"/>
+<junction x="396.24" y="134.62"/>
 </segment>
 </net>
 <net name="AD0/SDO" class="0">
@@ -18729,6 +18792,9 @@ PWR LED</text>
 <wire x1="345.44" y1="195.58" x2="345.44" y2="193.04" width="0.1524" layer="91"/>
 <junction x="345.44" y="193.04"/>
 <label x="342.9" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U15" gate="G$1" pin="1"/>
+<wire x1="345.44" y1="182.88" x2="347.98" y2="182.88" width="0.1524" layer="91" style="longdash"/>
+<junction x="347.98" y="182.88"/>
 </segment>
 </net>
 <net name="SDA/SDI" class="0">
@@ -18750,6 +18816,9 @@ PWR LED</text>
 <wire x1="345.44" y1="99.06" x2="345.44" y2="96.52" width="0.1524" layer="91"/>
 <junction x="345.44" y="96.52"/>
 <label x="342.9" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U11" gate="G$1" pin="1"/>
+<wire x1="345.44" y1="86.36" x2="347.98" y2="86.36" width="0.1524" layer="91" style="longdash"/>
+<junction x="347.98" y="86.36"/>
 </segment>
 </net>
 <net name="SCL/SCLK" class="0">
@@ -18771,6 +18840,9 @@ PWR LED</text>
 <wire x1="345.44" y1="147.32" x2="345.44" y2="144.78" width="0.1524" layer="91"/>
 <junction x="345.44" y="144.78"/>
 <label x="342.9" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U13" gate="G$1" pin="1"/>
+<wire x1="345.44" y1="134.62" x2="347.98" y2="134.62" width="0.1524" layer="91" style="longdash"/>
+<junction x="347.98" y="134.62"/>
 </segment>
 </net>
 <net name="!CS" class="0">
@@ -18792,6 +18864,9 @@ PWR LED</text>
 <wire x1="345.44" y1="243.84" x2="345.44" y2="241.3" width="0.1524" layer="91"/>
 <junction x="345.44" y="241.3"/>
 <label x="342.9" y="241.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U17" gate="G$1" pin="1"/>
+<wire x1="345.44" y1="231.14" x2="347.98" y2="231.14" width="0.1524" layer="91" style="longdash"/>
+<junction x="347.98" y="231.14"/>
 </segment>
 </net>
 <net name="AUX_DA" class="0">
@@ -18813,6 +18888,9 @@ PWR LED</text>
 <wire x1="393.7" y1="243.84" x2="393.7" y2="241.3" width="0.1524" layer="91"/>
 <junction x="393.7" y="241.3"/>
 <label x="391.16" y="241.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="1"/>
+<wire x1="393.7" y1="231.14" x2="396.24" y2="231.14" width="0.1524" layer="91" style="longdash"/>
+<junction x="396.24" y="231.14"/>
 </segment>
 </net>
 <net name="AUX_CL" class="0">
@@ -18834,6 +18912,9 @@ PWR LED</text>
 <wire x1="393.7" y1="195.58" x2="393.7" y2="193.04" width="0.1524" layer="91"/>
 <junction x="393.7" y="193.04"/>
 <label x="391.16" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U5" gate="G$1" pin="1"/>
+<wire x1="393.7" y1="182.88" x2="396.24" y2="182.88" width="0.1524" layer="91" style="longdash"/>
+<junction x="396.24" y="182.88"/>
 </segment>
 </net>
 <net name="1.8V" class="0">
@@ -19053,9 +19134,9 @@ PWR LED</text>
 </net>
 <net name="AUX_CL_VIN" class="0">
 <segment>
-<wire x1="121.92" y1="63.5" x2="116.84" y2="63.5" width="0.1524" layer="91"/>
-<label x="121.92" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J4" gate="G$1" pin="3"/>
+<wire x1="119.38" y1="68.58" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
+<label x="119.38" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J4" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <pinref part="Q11" gate="G$1" pin="D"/>
@@ -19070,13 +19151,16 @@ PWR LED</text>
 <wire x1="414.02" y1="193.04" x2="416.56" y2="193.04" width="0.1524" layer="91"/>
 <junction x="414.02" y="193.04"/>
 <label x="416.56" y="193.04" size="1.27" layer="95" xref="yes"/>
+<pinref part="U6" gate="G$1" pin="1"/>
+<wire x1="414.02" y1="182.88" x2="416.56" y2="182.88" width="0.1524" layer="91" style="longdash"/>
+<junction x="414.02" y="182.88"/>
 </segment>
 </net>
 <net name="AUX_DA_VIN" class="0">
 <segment>
-<wire x1="121.92" y1="60.96" x2="116.84" y2="60.96" width="0.1524" layer="91"/>
-<label x="121.92" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J4" gate="G$1" pin="2"/>
+<wire x1="119.38" y1="66.04" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
+<label x="119.38" y="66.04" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J4" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="Q9" gate="G$1" pin="D"/>
@@ -19091,6 +19175,9 @@ PWR LED</text>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="411.48" y1="243.84" x2="411.48" y2="241.3" width="0.1524" layer="91"/>
 <junction x="411.48" y="241.3"/>
+<pinref part="U4" gate="G$1" pin="1"/>
+<wire x1="416.56" y1="231.14" x2="414.02" y2="231.14" width="0.1524" layer="91" style="longdash"/>
+<junction x="414.02" y="231.14"/>
 </segment>
 </net>
 <net name="AD0/SDO_VIN" class="0">
@@ -19118,6 +19205,9 @@ PWR LED</text>
 <wire x1="365.76" y1="193.04" x2="368.3" y2="193.04" width="0.1524" layer="91"/>
 <junction x="365.76" y="193.04"/>
 <label x="368.3" y="193.04" size="1.27" layer="95" xref="yes"/>
+<pinref part="U16" gate="G$1" pin="1"/>
+<wire x1="365.76" y1="182.88" x2="368.3" y2="182.88" width="0.1524" layer="91" style="longdash"/>
+<junction x="365.76" y="182.88"/>
 </segment>
 </net>
 <net name="SDA/SDI_VIN" class="0">
@@ -19149,6 +19239,9 @@ PWR LED</text>
 <wire x1="365.76" y1="96.52" x2="368.3" y2="96.52" width="0.1524" layer="91"/>
 <junction x="365.76" y="96.52"/>
 <label x="368.3" y="96.52" size="1.27" layer="95" xref="yes"/>
+<pinref part="U12" gate="G$1" pin="1"/>
+<wire x1="365.76" y1="86.36" x2="368.3" y2="86.36" width="0.1524" layer="91" style="longdash"/>
+<junction x="365.76" y="86.36"/>
 </segment>
 </net>
 <net name="SCL/SCLK_VIN" class="0">
@@ -19180,6 +19273,9 @@ PWR LED</text>
 <wire x1="365.76" y1="144.78" x2="368.3" y2="144.78" width="0.1524" layer="91"/>
 <junction x="365.76" y="144.78"/>
 <label x="368.3" y="144.78" size="1.27" layer="95" xref="yes"/>
+<pinref part="U14" gate="G$1" pin="1"/>
+<wire x1="365.76" y1="134.62" x2="368.3" y2="134.62" width="0.1524" layer="91" style="longdash"/>
+<junction x="365.76" y="134.62"/>
 </segment>
 </net>
 <net name="!CS!_VIN" class="0">
@@ -19201,13 +19297,16 @@ PWR LED</text>
 <wire x1="365.76" y1="241.3" x2="368.3" y2="241.3" width="0.1524" layer="91"/>
 <junction x="365.76" y="241.3"/>
 <label x="368.3" y="241.3" size="1.27" layer="95" xref="yes"/>
+<pinref part="U18" gate="G$1" pin="1"/>
+<wire x1="368.3" y1="231.14" x2="365.76" y2="231.14" width="0.1524" layer="91" style="longdash"/>
+<junction x="365.76" y="231.14"/>
 </segment>
 </net>
 <net name="FSYNC_VIN" class="0">
 <segment>
-<wire x1="121.92" y1="66.04" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
-<label x="121.92" y="66.04" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J4" gate="G$1" pin="4"/>
+<wire x1="119.38" y1="63.5" x2="116.84" y2="63.5" width="0.1524" layer="91"/>
+<label x="119.38" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J4" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="Q13" gate="G$1" pin="D"/>
@@ -19222,13 +19321,16 @@ PWR LED</text>
 <wire x1="414.02" y1="144.78" x2="416.56" y2="144.78" width="0.1524" layer="91"/>
 <junction x="414.02" y="144.78"/>
 <label x="416.56" y="144.78" size="1.27" layer="95" xref="yes"/>
+<pinref part="U7" gate="G$1" pin="1"/>
+<wire x1="414.02" y1="134.62" x2="416.56" y2="134.62" width="0.1524" layer="91" style="longdash"/>
+<junction x="414.02" y="134.62"/>
 </segment>
 </net>
 <net name="INT_VIN" class="0">
 <segment>
-<wire x1="121.92" y1="68.58" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
-<label x="121.92" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J4" gate="G$1" pin="5"/>
+<wire x1="119.38" y1="60.96" x2="116.84" y2="60.96" width="0.1524" layer="91"/>
+<label x="119.38" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J4" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="Q15" gate="G$1" pin="D"/>
@@ -19243,6 +19345,9 @@ PWR LED</text>
 <wire x1="414.02" y1="96.52" x2="416.56" y2="96.52" width="0.1524" layer="91"/>
 <junction x="414.02" y="96.52"/>
 <label x="416.56" y="96.52" size="1.27" layer="95" xref="yes"/>
+<pinref part="U10" gate="G$1" pin="1"/>
+<wire x1="414.02" y1="86.36" x2="416.56" y2="86.36" width="0.1524" layer="91" style="longdash"/>
+<junction x="414.02" y="86.36"/>
 </segment>
 </net>
 <net name="N$9" class="0">
