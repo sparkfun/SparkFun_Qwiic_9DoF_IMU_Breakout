@@ -18176,6 +18176,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 <package name="MINI_TEST_POINT">
 <pad name="P$1" x="0" y="0" drill="0.4"/>
+<circle x="0" y="0" radius="0.55" width="0.1524" layer="39"/>
 </package>
 </packages>
 <symbols>
