@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -32,20 +32,20 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -151,7 +151,7 @@
 <wire x1="31.75" y1="25.4" x2="31.75" y2="0" width="0.2032" layer="20"/>
 <wire x1="31.75" y1="0" x2="0" y2="0" width="0.2032" layer="20"/>
 <text x="0.381" y="19.431" size="0.889" layer="16" font="vector" ratio="20" rot="SMR90">v21</text>
-<text x="20.465" y="-9.795" size="1.778" layer="51" font="vector" ratio="15">Owen Lyke</text>
+<text x="22.37" y="-15.764" size="1.778" layer="51" font="vector" ratio="15">Owen Lyke</text>
 <circle x="6.35" y="24.13" radius="1.141021875" width="0.254" layer="21"/>
 <circle x="6.35" y="1.27" radius="1.15199375" width="0.254" layer="21"/>
 <circle x="6.35" y="1.27" radius="1.15199375" width="0.254" layer="22"/>
@@ -6596,9 +6596,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="R17" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="6.604" y="6.35" rot="R180">
 <attribute name="PROD_ID" value="RES-14341" x="10.414" y="7.112" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
-<element name="FRAME2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="-12.319" y="-54.483">
-<attribute name="DESIGNER" value="Owen Lyke" x="-12.319" y="-54.483" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="REV" value="v21" x="-12.319" y="-54.483" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="FRAME2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="-5.715" y="-15.621">
+<attribute name="DESIGNER" value="Owen Lyke" x="-5.715" y="-15.621" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="REV" value="v21" x="-5.715" y="-15.621" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="Q9" library="new_fets" package="AP02001" value="DMN2005LP4K-7" x="19.558" y="17.907" rot="R180"/>
 <element name="Q10" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="17.272" y="18.034"/>
