@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -18,34 +18,34 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -6319,18 +6319,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="new_fets">
+<library name="SparkFun-DiscreteSemi">
+<description>&lt;h3&gt;SparkFun Discrete Semiconductors&lt;/h3&gt;
+This library contains diodes, optoisolators, TRIACs, MOSFETs, transistors, etc. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="SOT-416FL">
 <smd name="1" x="-0.5" y="-1.1" dx="0.46" dy="0.65" layer="1"/>
 <smd name="2" x="0.5" y="-1.1" dx="0.46" dy="0.65" layer="1"/>
 <smd name="3" x="0" y="0.05" dx="0.46" dy="0.65" layer="1"/>
 <rectangle x1="-0.8" y1="-0.955" x2="0.8" y2="-0.095" layer="51"/>
-<wire x1="-0.725" y1="-0.525" x2="-0.725" y2="-0.175" width="0.1524" layer="21"/>
-<wire x1="-0.725" y1="-0.175" x2="-0.425" y2="-0.175" width="0.1524" layer="21"/>
-<wire x1="0.425" y1="-0.175" x2="0.725" y2="-0.175" width="0.1524" layer="21"/>
-<wire x1="0.725" y1="-0.175" x2="0.725" y2="-0.525" width="0.1524" layer="21"/>
-<wire x1="-0.075" y1="-0.875" x2="0.075" y2="-0.875" width="0.1524" layer="21"/>
+<wire x1="-0.725" y1="-0.525" x2="-0.725" y2="-0.175" width="0.2032" layer="21"/>
+<wire x1="-0.725" y1="-0.175" x2="-0.425" y2="-0.175" width="0.2032" layer="21"/>
+<wire x1="0.425" y1="-0.175" x2="0.725" y2="-0.175" width="0.2032" layer="21"/>
+<wire x1="0.725" y1="-0.175" x2="0.725" y2="-0.525" width="0.2032" layer="21"/>
+<wire x1="-0.075" y1="-0.875" x2="0.075" y2="-0.875" width="0.2032" layer="21"/>
 <text x="-1.5" y="0.6" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.75" y="-2.3" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
@@ -6555,8 +6568,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$34" library="buzzard_labels (1)" package="X0" value="" x="1.8542" y="19.9644" smashed="yes" rot="R180"/>
 <element name="U$35" library="buzzard_labels (1)" package="Y1" value="" x="5.5372" y="16.7132" smashed="yes" rot="R180"/>
 <element name="U$36" library="buzzard_labels (1)" package="Z2" value="" x="2.1082" y="16.7132" smashed="yes" rot="R180"/>
-<element name="U$37" library="buzzard_labels (1)" package="G5" value="" x="4.6482" y="20.2692" smashed="yes" rot="R180"/>
-<element name="U$38" library="buzzard_labels (1)" package="A4" value="" x="5.6642" y="20.2692" smashed="yes" rot="R180"/>
+<element name="U$37" library="buzzard_labels (1)" package="G5" value="" x="4.7752" y="19.8882" smashed="yes" rot="R180"/>
+<element name="U$38" library="buzzard_labels (1)" package="A4" value="" x="5.7912" y="19.8882" smashed="yes" rot="R180"/>
 <element name="U$39" library="buzzard_labels (1)" package="M3" value="" x="25.5184" y="16.815" smashed="yes" rot="R180"/>
 <element name="U$40" library="buzzard_labels (1)" package="X0" value="" x="20.0408" y="15.2232" smashed="yes" rot="R90"/>
 <element name="U$41" library="buzzard_labels (1)" package="Y1" value="" x="25.3406" y="19.6598" smashed="yes" rot="R180"/>
@@ -6570,7 +6583,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$3" library="buzzard_labels_4" package="PWR0" value="" x="10.541" y="7.366" smashed="yes" rot="R180"/>
 <element name="U$45" library="buzzard_labels_4" package="I#C1" value="" x="1.3716" y="4.2545" smashed="yes" rot="R90"/>
 <element name="U$23" library="buzzard_labels_4" package="ADR2" value="" x="18.161" y="8.636" rot="MR90"/>
-<element name="U$24" library="buzzard_labels_2" package="GND4" value="" x="6.35" y="19.939" smashed="yes" rot="R90"/>
+<element name="U$24" library="buzzard_labels_2" package="GND4" value="" x="6.35" y="19.812" smashed="yes" rot="R90"/>
 <element name="U2" library="SparkFun-Sensors" package="QFN24-3X3" value="9DoF IMU" x="12.7" y="12.7" rot="R180">
 <attribute name="PROD_ID" value="IC-14247" x="53.975" y="-1.778" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
@@ -6617,28 +6630,40 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="JP5" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" value="LED" x="8.763" y="12.7" rot="MR270"/>
 <element name="JP2" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" value="ADR" x="18.161" y="8.128" rot="MR270"/>
-<element name="Q2" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="19.05" y="7.62" rot="R180"/>
+<element name="Q2" library="SparkFun-DiscreteSemi" package="SOT-416FL" value="20V/0.2A/8MHz/1.2Ω/1Vth" x="19.05" y="7.62" rot="R180">
+<attribute name="PROD_ID" value="TRANS-14399" x="19.05" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="20V/0.2A/8MHz/1.2Ω/1Vth" x="19.05" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="R10" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="19.05" y="9.525">
 <attribute name="PROD_ID" value="RES-14341" x="-37.084" y="-22.86" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="R11" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="19.05" y="6.731" rot="R180">
 <attribute name="PROD_ID" value="RES-14341" x="77.343" y="42.037" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
-<element name="Q4" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="16.51" y="7.62" rot="R180"/>
+<element name="Q4" library="SparkFun-DiscreteSemi" package="SOT-416FL" value="20V/0.2A/8MHz/1.2Ω/1Vth" x="16.51" y="7.62" rot="R180">
+<attribute name="PROD_ID" value="TRANS-14399" x="16.51" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="20V/0.2A/8MHz/1.2Ω/1Vth" x="16.51" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="R12" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="16.51" y="9.525">
 <attribute name="PROD_ID" value="RES-14341" x="-48.514" y="-30.861" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="R13" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="16.51" y="6.731" rot="R180">
 <attribute name="PROD_ID" value="RES-14341" x="83.693" y="50.038" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
-<element name="Q6" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="13.97" y="7.62" rot="R180"/>
+<element name="Q6" library="SparkFun-DiscreteSemi" package="SOT-416FL" value="20V/0.2A/8MHz/1.2Ω/1Vth" x="13.97" y="7.62" rot="R180">
+<attribute name="PROD_ID" value="TRANS-14399" x="13.97" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="20V/0.2A/8MHz/1.2Ω/1Vth" x="13.97" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="R14" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="13.97" y="9.525">
 <attribute name="PROD_ID" value="RES-14341" x="-59.944" y="-38.862" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="R15" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="13.97" y="6.731" rot="R180">
 <attribute name="PROD_ID" value="RES-14341" x="90.043" y="58.039" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
-<element name="Q8" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="11.43" y="7.62" rot="R180"/>
+<element name="Q8" library="SparkFun-DiscreteSemi" package="SOT-416FL" value="20V/0.2A/8MHz/1.2Ω/1Vth" x="11.43" y="7.62" rot="R180">
+<attribute name="PROD_ID" value="TRANS-14399" x="11.43" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="20V/0.2A/8MHz/1.2Ω/1Vth" x="11.43" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="R16" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="11.43" y="9.525">
 <attribute name="PROD_ID" value="RES-14341" x="-71.374" y="-46.863" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
@@ -6647,30 +6672,42 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="FRAME2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="-7.62" y="-10.414">
 <attribute name="DESIGNER" value="Owen Lyke" x="-68.326" y="-100.457" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="REV" value="v21" x="-68.326" y="-100.457" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="REV" value="v30" x="-68.326" y="-100.457" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="Q10" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="13.97" y="17.78"/>
+<element name="Q10" library="SparkFun-DiscreteSemi" package="SOT-416FL" value="20V/0.2A/8MHz/1.2Ω/1Vth" x="13.97" y="17.78">
+<attribute name="PROD_ID" value="TRANS-14399" x="13.97" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="20V/0.2A/8MHz/1.2Ω/1Vth" x="13.97" y="17.78" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R18" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="13.97" y="15.875" rot="R180">
 <attribute name="PROD_ID" value="RES-14341" x="105.664" y="88.9" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R19" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="13.97" y="18.669">
 <attribute name="PROD_ID" value="RES-14341" x="-79.883" y="-57.277" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="Q12" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="16.51" y="17.78"/>
+<element name="Q12" library="SparkFun-DiscreteSemi" package="SOT-416FL" value="20V/0.2A/8MHz/1.2Ω/1Vth" x="16.51" y="17.78">
+<attribute name="PROD_ID" value="TRANS-14399" x="16.51" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="20V/0.2A/8MHz/1.2Ω/1Vth" x="16.51" y="17.78" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R20" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="16.51" y="15.875" rot="R180">
 <attribute name="PROD_ID" value="RES-14341" x="117.094" y="96.901" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R21" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="16.51" y="18.669">
 <attribute name="PROD_ID" value="RES-14341" x="-86.233" y="-65.278" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="Q14" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="11.43" y="17.78"/>
+<element name="Q14" library="SparkFun-DiscreteSemi" package="SOT-416FL" value="20V/0.2A/8MHz/1.2Ω/1Vth" x="11.43" y="17.78">
+<attribute name="PROD_ID" value="TRANS-14399" x="11.43" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="20V/0.2A/8MHz/1.2Ω/1Vth" x="11.43" y="17.78" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R22" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="11.43" y="15.875" rot="R180">
 <attribute name="PROD_ID" value="RES-14341" x="120.904" y="104.902" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R23" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="11.43" y="18.669">
 <attribute name="PROD_ID" value="RES-14341" x="-100.203" y="-73.279" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="Q16" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="8.89" y="17.78"/>
+<element name="Q16" library="SparkFun-DiscreteSemi" package="SOT-416FL" value="20V/0.2A/8MHz/1.2Ω/1Vth" x="8.89" y="17.78">
+<attribute name="PROD_ID" value="TRANS-14399" x="8.89" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="20V/0.2A/8MHz/1.2Ω/1Vth" x="8.89" y="17.78" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R24" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="8.89" y="15.875" rot="R180">
 <attribute name="PROD_ID" value="RES-14341" x="127.254" y="112.903" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
@@ -7018,7 +7055,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="J4" pad="4"/>
 <contactref element="Q10" pad="3"/>
 <contactref element="R19" pad="1"/>
-<wire x1="13.47" y1="18.669" x2="13.47" y2="18.796" width="0.2032" layer="1"/>
 <wire x1="13.97" y1="17.83" x2="13.47" y2="18.33" width="0.2032" layer="1"/>
 <wire x1="13.47" y1="18.33" x2="13.47" y2="18.669" width="0.2032" layer="1"/>
 <wire x1="13.47" y1="18.669" x2="13.47" y2="21.328" width="0.2032" layer="1"/>
@@ -7110,7 +7146,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="J3" pad="6"/>
 <contactref element="R11" pad="1"/>
 <contactref element="Q2" pad="3"/>
-<wire x1="19.55" y1="6.731" x2="19.55" y2="6.604" width="0.2032" layer="1"/>
 <wire x1="19.431" y1="7.57" x2="19.55" y2="7.451" width="0.2032" layer="1"/>
 <wire x1="19.55" y1="7.451" x2="19.55" y2="6.731" width="0.2032" layer="1"/>
 <wire x1="19.05" y1="7.57" x2="19.431" y2="7.57" width="0.2032" layer="1"/>
