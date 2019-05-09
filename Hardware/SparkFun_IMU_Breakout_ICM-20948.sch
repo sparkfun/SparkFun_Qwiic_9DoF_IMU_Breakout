@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.1.3">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -18737,9 +18737,10 @@ PWR LED</text>
 <instance part="SUPPLY13" gate="G$1" x="119.38" y="73.66">
 <attribute name="VALUE" x="119.38" y="76.454" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="Q2" gate="NMOS" x="231.14" y="127" rot="R270">
+<instance part="Q2" gate="NMOS" x="231.14" y="127" smashed="yes" rot="R270">
 <attribute name="NAME" x="231.14" y="121.92" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="215.9" y="114.3" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="231.14" y="121.92" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
 <instance part="R10" gate="G$1" x="223.52" y="132.08" rot="R90">
 <attribute name="NAME" x="221.996" y="132.08" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -18755,9 +18756,10 @@ PWR LED</text>
 <instance part="SUPPLY15" gate="G$1" x="238.76" y="142.24">
 <attribute name="VALUE" x="238.76" y="145.034" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="Q4" gate="NMOS" x="276.86" y="127" rot="R270">
+<instance part="Q4" gate="NMOS" x="276.86" y="127" smashed="yes" rot="R270">
 <attribute name="NAME" x="276.86" y="121.92" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="261.62" y="114.3" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="276.86" y="121.92" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
 <instance part="R12" gate="G$1" x="269.24" y="132.08" rot="R90">
 <attribute name="NAME" x="267.716" y="132.08" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -18773,9 +18775,10 @@ PWR LED</text>
 <instance part="SUPPLY17" gate="G$1" x="284.48" y="142.24">
 <attribute name="VALUE" x="284.48" y="145.034" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="Q6" gate="NMOS" x="381" y="208.28" rot="R270">
+<instance part="Q6" gate="NMOS" x="381" y="208.28" smashed="yes" rot="R270">
 <attribute name="NAME" x="381" y="203.2" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="365.76" y="195.58" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="381" y="203.2" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
 <instance part="R14" gate="G$1" x="370.84" y="213.36" rot="R90">
 <attribute name="NAME" x="369.316" y="213.36" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -18788,9 +18791,10 @@ PWR LED</text>
 <instance part="SUPPLY18" gate="G$1" x="370.84" y="231.14">
 <attribute name="VALUE" x="370.84" y="233.934" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="Q8" gate="NMOS" x="330.2" y="208.28" rot="R270">
+<instance part="Q8" gate="NMOS" x="330.2" y="208.28" smashed="yes" rot="R270">
 <attribute name="NAME" x="330.2" y="203.2" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="314.96" y="195.58" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="330.2" y="203.2" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
 <instance part="R16" gate="G$1" x="322.58" y="213.36" rot="R90">
 <attribute name="NAME" x="321.056" y="213.36" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -18811,9 +18815,10 @@ PWR LED</text>
 <attribute name="DESIGNER" x="353.314" y="11.176" size="2.7432" layer="94" font="vector"/>
 <attribute name="REV" x="419.1" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
-<instance part="Q10" gate="NMOS" x="215.9" y="208.28" rot="R270">
+<instance part="Q10" gate="NMOS" x="215.9" y="208.28" smashed="yes" rot="R270">
 <attribute name="NAME" x="215.9" y="203.2" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="200.66" y="195.58" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="215.9" y="203.2" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
 <instance part="R18" gate="G$1" x="208.28" y="213.36" rot="R90">
 <attribute name="NAME" x="206.756" y="213.36" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -18826,9 +18831,10 @@ PWR LED</text>
 <instance part="SUPPLY22" gate="G$1" x="208.28" y="231.14">
 <attribute name="VALUE" x="208.28" y="233.934" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="Q12" gate="NMOS" x="264.16" y="208.28" rot="R270">
+<instance part="Q12" gate="NMOS" x="264.16" y="208.28" smashed="yes" rot="R270">
 <attribute name="NAME" x="264.16" y="203.2" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="248.92" y="195.58" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="264.16" y="203.2" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
 <instance part="R20" gate="G$1" x="256.54" y="213.36" rot="R90">
 <attribute name="NAME" x="255.016" y="213.36" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -18841,9 +18847,10 @@ PWR LED</text>
 <instance part="SUPPLY24" gate="G$1" x="256.54" y="231.14">
 <attribute name="VALUE" x="256.54" y="233.934" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="Q14" gate="NMOS" x="325.12" y="127" rot="R270">
+<instance part="Q14" gate="NMOS" x="325.12" y="127" smashed="yes" rot="R270">
 <attribute name="NAME" x="325.12" y="121.92" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="309.88" y="114.3" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="325.12" y="121.92" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
 <instance part="R22" gate="G$1" x="314.96" y="132.08" rot="R90">
 <attribute name="NAME" x="313.436" y="132.08" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -18859,9 +18866,10 @@ PWR LED</text>
 <instance part="SUPPLY27" gate="G$1" x="332.74" y="142.24">
 <attribute name="VALUE" x="332.74" y="145.034" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="Q16" gate="NMOS" x="368.3" y="127" rot="R270">
+<instance part="Q16" gate="NMOS" x="368.3" y="127" smashed="yes" rot="R270">
 <attribute name="NAME" x="368.3" y="121.92" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="353.06" y="114.3" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="368.3" y="121.92" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
 <instance part="R24" gate="G$1" x="358.14" y="132.08" rot="R90">
 <attribute name="NAME" x="356.616" y="132.08" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
