@@ -6413,25 +6413,25 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="20.1422" y="12.7" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="NAME" x="20.1422" y="12.7" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-08604" x="19.3802" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="19.6342" y="15.621" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="VALUE" x="19.7612" y="10.033" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="C2" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="22.479" y="12.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.241" y="12.7" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="NAME" x="23.241" y="12.7" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-08604" x="22.479" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="22.733" y="15.494" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="VALUE" x="22.733" y="10.033" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="C1" library="SparkFun-Capacitors" package="0603" value="1.0uF" x="20.955" y="12.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.717" y="12.7" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="NAME" x="21.717" y="12.7" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-13930" x="20.955" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="21.209" y="15.494" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="VALUE" x="21.336" y="10.033" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="C4" library="SparkFun-Capacitors" package="0603" value="1.0uF" x="6.858" y="12.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="7.62" y="12.7" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="NAME" x="7.62" y="12.7" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-13930" x="6.858" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="5.969" y="12.7" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="VALUE" x="8.128" y="12.7" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="31.0134" y="24.6634" smashed="yes"/>
 <element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="0.7366" y="0.7366" rot="MR0"/>
@@ -6477,13 +6477,13 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="10.922" y="13.97" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="NAME" x="10.922" y="13.97" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="VREG-08428" x="10.922" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="9.906" y="9.271" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="VALUE" x="12.7" y="12.7" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="U2" library="SparkFun-Sensors" package="QFN24-3X3" value="9DoF IMU" x="15.875" y="12.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="15.875" y="10.668" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="NAME" x="15.875" y="10.668" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="IC-14247" x="15.875" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="13.843" y="12.827" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="VALUE" x="18.542" y="12.827" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="J4" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="6.35" y="24.13" smashed="yes">
 <attribute name="NAME" x="5.08" y="25.527" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -6506,13 +6506,13 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="10.668" y="9.525" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="NAME" x="10.668" y="9.525" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-07869" x="10.668" y="10.287" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="VALUE" x="13.208" y="10.033" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="VALUE" x="8.128" y="9.906" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="D1" library="SparkFun-LED" package="LED-0603" value="RED" x="10.668" y="14.986" smashed="yes" rot="R180">
 <attribute name="NAME" x="10.668" y="14.351" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="NAME" x="10.668" y="14.351" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-00819" x="10.668" y="14.986" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="VALUE" x="13.208" y="14.605" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="VALUE" x="8.001" y="14.732" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="JP5" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" value="LED" x="10.795" y="12.7" rot="MR270">
 <attribute name="NAME" x="9.652" y="12.7" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
@@ -6564,90 +6564,163 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$45" library="buzzard_labels_4" package="I#C1" value="" x="1.3716" y="4.2545" smashed="yes" rot="R90"/>
 <element name="U$23" library="buzzard_labels_4" package="ADR2" value="" x="23.114" y="8.001" rot="MR90"/>
 <element name="U$24" library="buzzard_labels_2" package="GND4" value="" x="6.35" y="19.812" smashed="yes" rot="R90"/>
-<element name="Q1" library="new_fets" package="AP02001" value="DMN2005LP4K-7" x="25.4" y="7.239"/>
-<element name="Q2" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="27.686" y="7.112" rot="R180"/>
-<element name="R10" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="25.4" y="8.128">
+<element name="Q1" library="new_fets" package="AP02001" value="DMN2005LP4K-7" x="25.4" y="7.239" smashed="yes">
+<attribute name="NAME" x="26.65" y="7.264" size="0.6096" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="Q2" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="27.686" y="7.112" smashed="yes" rot="R180">
+<attribute name="NAME" x="29.186" y="6.512" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="VALUE" x="28.688" y="9.37" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
+</element>
+<element name="R10" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="25.4" y="8.128" smashed="yes">
+<attribute name="NAME" x="25.4" y="8.69" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-14341" x="25.4" y="8.128" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="25.4" y="9.09" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R11" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="25.4" y="6.35" rot="R180">
+<element name="R11" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="25.4" y="6.35" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.4" y="5.788" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-14341" x="25.4" y="6.35" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VALUE" x="25.4" y="5.388" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="Q3" library="new_fets" package="AP02001" value="DMN2005LP4K-7" x="17.272" y="7.239"/>
-<element name="Q4" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="19.558" y="7.112" rot="R180"/>
-<element name="R12" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="17.272" y="8.128">
+<element name="Q3" library="new_fets" package="AP02001" value="DMN2005LP4K-7" x="17.272" y="7.239" smashed="yes">
+<attribute name="NAME" x="18.522" y="7.264" size="0.6096" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="Q4" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="19.558" y="7.112" smashed="yes" rot="R180">
+<attribute name="NAME" x="21.058" y="6.512" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="VALUE" x="20.56" y="8.608" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
+</element>
+<element name="R12" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="17.272" y="8.128" smashed="yes">
+<attribute name="NAME" x="17.272" y="8.69" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-14341" x="8.128" y="5.969" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="17.272" y="9.09" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R13" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="17.272" y="6.35" rot="R180">
+<element name="R13" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="17.272" y="6.35" smashed="yes" rot="R180">
+<attribute name="NAME" x="17.272" y="5.788" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-14341" x="21.082" y="7.112" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VALUE" x="17.272" y="5.388" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="Q5" library="new_fets" package="AP02001" value="DMN2005LP4K-7" x="12.192" y="7.239"/>
-<element name="Q6" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="14.478" y="7.112" rot="R180"/>
-<element name="R14" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="12.192" y="8.128">
+<element name="Q5" library="new_fets" package="AP02001" value="DMN2005LP4K-7" x="12.192" y="7.239" smashed="yes">
+<attribute name="NAME" x="13.442" y="7.264" size="0.6096" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="Q6" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="14.478" y="7.112" smashed="yes" rot="R180">
+<attribute name="NAME" x="15.978" y="6.512" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="VALUE" x="15.607" y="9.37" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
+</element>
+<element name="R14" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="12.192" y="8.128" smashed="yes">
+<attribute name="NAME" x="12.192" y="8.69" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-14341" x="3.048" y="5.969" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="12.192" y="9.09" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R15" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="12.192" y="6.35" rot="R180">
+<element name="R15" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="12.192" y="6.35" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.192" y="5.788" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-14341" x="16.002" y="7.112" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VALUE" x="12.192" y="5.388" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="Q7" library="new_fets" package="AP02001" value="DMN2005LP4K-7" x="6.604" y="7.239"/>
-<element name="Q8" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="8.89" y="7.112" rot="R180"/>
-<element name="R16" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="6.604" y="8.128">
+<element name="Q7" library="new_fets" package="AP02001" value="DMN2005LP4K-7" x="6.604" y="7.239" smashed="yes">
+<attribute name="NAME" x="7.854" y="7.264" size="0.6096" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="Q8" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="8.89" y="7.112" smashed="yes" rot="R180">
+<attribute name="NAME" x="10.39" y="6.512" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="VALUE" x="10.273" y="9.243" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
+</element>
+<element name="R16" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="6.604" y="8.128" smashed="yes">
+<attribute name="NAME" x="6.604" y="8.69" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-14341" x="-2.54" y="5.969" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="6.731" y="9.217" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R17" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="6.604" y="6.35" rot="R180">
+<element name="R17" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="6.604" y="6.35" smashed="yes" rot="R180">
+<attribute name="NAME" x="6.604" y="5.788" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-14341" x="10.414" y="7.112" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VALUE" x="6.731" y="5.388" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="FRAME2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="-5.715" y="-15.621">
 <attribute name="DESIGNER" value="Owen Lyke" x="-5.715" y="-15.621" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="REV" value="v21" x="-5.715" y="-15.621" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="Q9" library="new_fets" package="AP02001" value="DMN2005LP4K-7" x="19.558" y="17.907" rot="R180"/>
-<element name="Q10" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="17.272" y="18.034"/>
-<element name="R18" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="19.558" y="17.018" rot="R180">
+<element name="Q9" library="new_fets" package="AP02001" value="DMN2005LP4K-7" x="19.558" y="17.907" smashed="yes" rot="R180">
+<attribute name="NAME" x="18.308" y="17.882" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
+</element>
+<element name="Q10" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="17.272" y="18.034" smashed="yes">
+<attribute name="NAME" x="15.772" y="18.634" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="16.27" y="15.141" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
+</element>
+<element name="R18" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="19.558" y="17.018" smashed="yes" rot="R180">
+<attribute name="NAME" x="19.558" y="16.456" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-14341" x="34.163" y="14.859" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VALUE" x="19.558" y="15.802" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="R19" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="19.558" y="18.796">
+<element name="R19" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="19.558" y="18.796" smashed="yes">
+<attribute name="NAME" x="19.558" y="19.358" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-14341" x="15.748" y="22.352" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="19.558" y="19.885" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="Q11" library="new_fets" package="AP02001" value="DMN2005LP4K-7" x="26.289" y="17.907" rot="R180"/>
-<element name="Q12" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="24.003" y="18.034"/>
-<element name="R20" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="26.289" y="17.018" rot="R180">
+<element name="Q11" library="new_fets" package="AP02001" value="DMN2005LP4K-7" x="26.289" y="17.907" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.039" y="17.882" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="VALUE" x="25.136" y="18.141" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
+</element>
+<element name="Q12" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="24.003" y="18.034" smashed="yes">
+<attribute name="NAME" x="22.503" y="18.634" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="23.001" y="15.395" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
+</element>
+<element name="R20" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="26.289" y="17.018" smashed="yes" rot="R180">
+<attribute name="NAME" x="26.289" y="16.456" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-14341" x="36.83" y="18.542" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VALUE" x="27.559" y="16.31" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="R21" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="26.289" y="18.796">
+<element name="R21" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="26.289" y="18.796" smashed="yes">
+<attribute name="NAME" x="26.289" y="19.358" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-14341" x="13.589" y="14.351" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="26.416" y="20.012" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="Q13" library="new_fets" package="AP02001" value="DMN2005LP4K-7" x="13.97" y="17.907" rot="R180"/>
-<element name="Q14" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="11.684" y="18.034"/>
-<element name="R22" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="13.97" y="17.018" rot="R180">
+<element name="Q13" library="new_fets" package="AP02001" value="DMN2005LP4K-7" x="13.97" y="17.907" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.72" y="17.882" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
+</element>
+<element name="Q14" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="11.684" y="18.034" smashed="yes">
+<attribute name="NAME" x="10.184" y="18.634" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="10.682" y="15.776" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
+</element>
+<element name="R22" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="13.97" y="17.018" smashed="yes" rot="R180">
+<attribute name="NAME" x="13.97" y="16.456" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-14341" x="33.401" y="26.543" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VALUE" x="13.97" y="15.802" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="R23" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="13.97" y="18.796">
+<element name="R23" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="13.97" y="18.796" smashed="yes">
+<attribute name="NAME" x="13.97" y="19.358" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-14341" x="-7.62" y="6.35" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="13.97" y="19.885" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="Q15" library="new_fets" package="AP02001" value="DMN2005LP4K-7" x="8.255" y="17.907" rot="R180"/>
-<element name="Q16" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="5.969" y="18.034"/>
-<element name="R24" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="8.255" y="17.018" rot="R180">
+<element name="Q15" library="new_fets" package="AP02001" value="DMN2005LP4K-7" x="8.255" y="17.907" smashed="yes" rot="R180">
+<attribute name="NAME" x="7.005" y="17.882" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
+</element>
+<element name="Q16" library="new_fets" package="SOT-416FL" value="RE1C002UN" x="5.969" y="18.034" smashed="yes">
+<attribute name="NAME" x="4.469" y="18.634" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="5.094" y="15.903" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
+</element>
+<element name="R24" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="8.255" y="17.018" smashed="yes" rot="R180">
+<attribute name="NAME" x="8.255" y="16.456" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-14341" x="36.576" y="34.544" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VALUE" x="8.382" y="15.929" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="R25" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="8.255" y="18.796">
+<element name="R25" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="8.255" y="18.796" smashed="yes">
+<attribute name="NAME" x="8.255" y="19.358" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-14341" x="-9.271" y="1.27" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="8.255" y="19.885" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="U1" library="new_fets" package="MINI_TEST_POINT" value="TP" x="20.828" y="16.002" rot="R180"/>
-<element name="U4" library="new_fets" package="MINI_TEST_POINT" value="TP" x="17.78" y="19.05" rot="R180"/>
-<element name="U5" library="new_fets" package="MINI_TEST_POINT" value="TP" x="26.162" y="15.875" rot="R180"/>
-<element name="U6" library="new_fets" package="MINI_TEST_POINT" value="TP" x="24.511" y="19.05" rot="R180"/>
-<element name="U7" library="new_fets" package="MINI_TEST_POINT" value="TP" x="12.319" y="18.923" rot="R180"/>
-<element name="U8" library="new_fets" package="MINI_TEST_POINT" value="TP" x="14.732" y="15.875" rot="R180"/>
-<element name="U9" library="new_fets" package="MINI_TEST_POINT" value="TP" x="8.509" y="15.875" rot="R180"/>
-<element name="U10" library="new_fets" package="MINI_TEST_POINT" value="TP" x="6.604" y="18.923" rot="R180"/>
-<element name="U11" library="new_fets" package="MINI_TEST_POINT" value="TP" x="4.953" y="8.001"/>
-<element name="U12" library="new_fets" package="MINI_TEST_POINT" value="TP" x="8.255" y="6.096"/>
-<element name="U13" library="new_fets" package="MINI_TEST_POINT" value="TP" x="13.462" y="9.144"/>
-<element name="U14" library="new_fets" package="MINI_TEST_POINT" value="TP" x="13.843" y="6.096"/>
-<element name="U15" library="new_fets" package="MINI_TEST_POINT" value="TP" x="17.018" y="9.271"/>
-<element name="U16" library="new_fets" package="MINI_TEST_POINT" value="TP" x="19.05" y="6.096"/>
-<element name="U17" library="new_fets" package="MINI_TEST_POINT" value="TP" x="24.765" y="9.271"/>
-<element name="U18" library="new_fets" package="MINI_TEST_POINT" value="TP" x="27.432" y="5.842"/>
+<element name="U1" library="new_fets" package="MINI_TEST_POINT" value="TP" x="20.828" y="16.002" smashed="yes" rot="R180"/>
+<element name="U4" library="new_fets" package="MINI_TEST_POINT" value="TP" x="17.78" y="19.05" smashed="yes" rot="R180"/>
+<element name="U5" library="new_fets" package="MINI_TEST_POINT" value="TP" x="26.162" y="15.875" smashed="yes" rot="R180"/>
+<element name="U6" library="new_fets" package="MINI_TEST_POINT" value="TP" x="24.511" y="19.05" smashed="yes" rot="R180"/>
+<element name="U7" library="new_fets" package="MINI_TEST_POINT" value="TP" x="12.319" y="18.923" smashed="yes" rot="R180"/>
+<element name="U8" library="new_fets" package="MINI_TEST_POINT" value="TP" x="14.732" y="15.875" smashed="yes" rot="R180"/>
+<element name="U9" library="new_fets" package="MINI_TEST_POINT" value="TP" x="8.509" y="15.875" smashed="yes" rot="R180"/>
+<element name="U10" library="new_fets" package="MINI_TEST_POINT" value="TP" x="6.604" y="18.923" smashed="yes" rot="R180"/>
+<element name="U11" library="new_fets" package="MINI_TEST_POINT" value="TP" x="4.953" y="8.001" smashed="yes"/>
+<element name="U12" library="new_fets" package="MINI_TEST_POINT" value="TP" x="8.255" y="6.096" smashed="yes"/>
+<element name="U13" library="new_fets" package="MINI_TEST_POINT" value="TP" x="13.462" y="9.144" smashed="yes"/>
+<element name="U14" library="new_fets" package="MINI_TEST_POINT" value="TP" x="13.843" y="6.096" smashed="yes"/>
+<element name="U15" library="new_fets" package="MINI_TEST_POINT" value="TP" x="17.018" y="9.271" smashed="yes"/>
+<element name="U16" library="new_fets" package="MINI_TEST_POINT" value="TP" x="19.05" y="6.096" smashed="yes"/>
+<element name="U17" library="new_fets" package="MINI_TEST_POINT" value="TP" x="24.765" y="9.271" smashed="yes"/>
+<element name="U18" library="new_fets" package="MINI_TEST_POINT" value="TP" x="27.432" y="5.842" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
