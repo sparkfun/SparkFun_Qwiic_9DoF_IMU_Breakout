@@ -228,7 +228,6 @@
 <wire x1="13.1826" y1="15.6972" x2="13.081" y2="16.0782" width="0.254" layer="22"/>
 <wire x1="13.081" y1="16.0782" x2="13.589" y2="15.875" width="0.254" layer="22"/>
 <wire x1="13.589" y1="15.875" x2="13.1826" y2="15.6972" width="0.254" layer="22"/>
-<text x="30.48" y="22.86" size="1.778" layer="1" font="vector" ratio="15">level shifters expanded a lil</text>
 <circle x="6.4135" y="17.5895" radius="0.0635" width="0.1778" layer="22"/>
 <circle x="6.4135" y="17.5895" radius="0.4445" width="0.1778" layer="22"/>
 <circle x="21.7932" y="18.4658" radius="0.635" width="0.1778" layer="21"/>
