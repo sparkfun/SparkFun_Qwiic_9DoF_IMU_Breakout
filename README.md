@@ -1,9 +1,9 @@
 SparkFun Qwiic 9DoF IMU  Breakout
 ========================================
 
-![SparkFun Qwiic 9DoF IMU  Breakout](https://cdn.sparkfun.com/assets/parts/1/3/5/9/8/15182-SparkFun_9DoF_IMU_Breakout_-_ICM-20948__Qwiic_-01a.jpg)
+![SparkFun Qwiic 9DoF IMU  Breakout](https://cdn.sparkfun.com/assets/parts/1/3/8/6/0/15335-SparkFun_9DoF_IMU_Breakout_-_ICM-20948__Qwiic_-01.jpg)
 
-[*SparkFun Qwiic 9DoF IMU  Breakout (15182)*](https://www.sparkfun.com/products/15182)
+[*SparkFun Qwiic 9DoF IMU  Breakout (15335)*](https://www.sparkfun.com/products/15335)
 
 <Basic description of the part.>
 
