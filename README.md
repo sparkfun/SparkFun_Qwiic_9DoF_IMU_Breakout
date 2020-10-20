@@ -18,9 +18,12 @@ Repository Contents
 
 Documentation
 --------------
-* **[Library](https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary)** - Arduino library for the SparkFun Qwiic 9DoF IMU  Breakout.
+* **[Arduino Library](https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary)** - Arduino library for the SparkFun Qwiic 9DoF IMU  Breakout.
+* **[Python Package](https://github.com/sparkfun/Qwiic_9DoF_IMU_ICM20948_Py)** - Python Package (Qwiic_Py) for the SparkFun Qwiic 9DoF IMU  Breakout.
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-9dof-imu-icm-20948-breakout-hookup-guide)** - Basic hookup guide for the SparkFun 9DoF IMU Breakout.
 * **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
+
+
 
 License Information
 -------------------
