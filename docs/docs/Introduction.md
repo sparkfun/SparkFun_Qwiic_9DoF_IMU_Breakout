@@ -1,4 +1,4 @@
-[![Hookup Guide Banner Image](/img/9DoF-IMU-HG-Banner.png)]
+
 
 The [SparkFun 9DoF IMU Breakout](https://www.sparkfun.com/products/15335) incorporates all the amazing features of Invensense's ICM-20948 into a Qwiic-enabled breakout board replete with logic shifting and broken out GPIO pins for all your motion sensing needs. The ICM-20948 itself is an extremely low powered, I<sup>2</sup>C and SPI enabled 9-axis motion tracking device that is ideally suited for smartphones, tablets, wearable sensors, and IoT applications. Featuring a 3-Axis Gyroscope with four selectable ranges, a 3-Axis Accelerometer, again with four selectable ranges, a 3-axis compass with a wide range to  ±4900 µT, and an on-board Digital Motion Processor, this little breakout can even detect the motion of invisibility cloaks. Not really. Just checking to see if you were still with me. But it _is_ pretty amazing.
 
