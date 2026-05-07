@@ -22,7 +22,7 @@ const config: Config = {
     url: 'https://docs.sparkfun.com',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: '/SparkFun_Qwiic_9DoF_IMU_Breakout',
+    baseUrl: '/SparkFun_Qwiic_9DoF_IMU_Breakout/',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
